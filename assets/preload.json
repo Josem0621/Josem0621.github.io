@@ -1,0 +1,89 @@
+{
+    "anims": [
+        {
+            "key": "shark",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "sharks1",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "sharks2",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "sharks3",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "sharks4",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 5,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "crabs",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "crab1",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "crab2",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "crab3",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "crab4",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "crab5",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "crab6",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "crab7",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    },
+    "settings": {
+        "sourceLang": "JAVA_SCRIPT",
+        "esModule": false,
+        "generateCode": false
+    }
+}

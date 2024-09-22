@@ -1,0 +1,170 @@
+{
+    "id": "24569f84-3174-4c61-971a-f372e52f4234",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Players",
+        "borderWidth": 1910,
+        "borderHeight": 1000
+    },
+    "displayList": [
+        {
+            "type": "Triangle",
+            "id": "2669a1a2-9d65-4aba-8a18-7d11700a9e08",
+            "label": "triangle_1",
+            "x": 433,
+            "y": 401,
+            "angle": -180,
+            "isFilled": true
+        },
+        {
+            "type": "Triangle",
+            "id": "443c4e7a-55ca-41d1-8f7c-46815ea9f3b4",
+            "label": "triangle",
+            "x": 736,
+            "y": 401,
+            "angle": -180,
+            "isFilled": true
+        },
+        {
+            "type": "Triangle",
+            "id": "eeafa238-72aa-47ab-802c-735d4edcd3cf",
+            "label": "triangle_2",
+            "x": 1206,
+            "y": 401,
+            "angle": -180,
+            "isFilled": true
+        },
+        {
+            "type": "Triangle",
+            "id": "21617696-16ce-4ffe-ab3c-d0932b292e79",
+            "label": "triangle_3",
+            "x": 1537,
+            "y": 401,
+            "angle": -180,
+            "isFilled": true
+        },
+        {
+            "type": "Rectangle",
+            "id": "84badfdc-fb0d-4a3f-80bb-94c898180bbd",
+            "label": "rectangle_3",
+            "x": 1539,
+            "y": 619,
+            "scaleX": 1.594548691085039,
+            "scaleY": 2.3104581585323953,
+            "isFilled": true,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "de394c2f-f3f6-4536-8ba2-5e8aaf8726c6",
+            "label": "rectangle_2",
+            "x": 1207,
+            "y": 622,
+            "scaleX": 1.594548691085039,
+            "scaleY": 2.3104581585323953,
+            "isFilled": true,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "75fc2c65-0937-4b99-9e4c-13120e5dad92",
+            "label": "rectangle",
+            "x": 735,
+            "y": 626,
+            "scaleX": 1.594548691085039,
+            "scaleY": 2.3104581585323953,
+            "isFilled": true,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "77e4f878-d38e-487c-b7fb-3c8c866f0c70",
+            "label": "rectangle_1",
+            "x": 436,
+            "y": 629,
+            "scaleX": 1.594548691085039,
+            "scaleY": 2.3104581585323953,
+            "isFilled": true,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Image",
+            "id": "24810c39-76ed-439e-9be3-c5b96eb1bbb6",
+            "label": "gato",
+            "texture": {
+                "key": "gato"
+            },
+            "x": 436,
+            "y": 627
+        },
+        {
+            "type": "Image",
+            "id": "baf91f00-e7b8-46e6-af71-ede6dab7b8aa",
+            "label": "koala",
+            "texture": {
+                "key": "koala"
+            },
+            "x": 738,
+            "y": 629
+        },
+        {
+            "type": "Image",
+            "id": "35d7e1e2-bb4a-4062-b914-fdf515c34b99",
+            "label": "panda",
+            "texture": {
+                "key": "panda"
+            },
+            "x": 1205,
+            "y": 629
+        },
+        {
+            "type": "Image",
+            "id": "693b32df-8f10-4078-8385-8eadb2ed652e",
+            "label": "toro",
+            "texture": {
+                "key": "Toro"
+            },
+            "x": 1539,
+            "y": 631
+        },
+        {
+            "type": "Text",
+            "id": "595df0f0-2815-40a7-a139-205ae8f207d7",
+            "label": "titulo1",
+            "x": 400,
+            "y": 99,
+            "text": "S E L E C C I O N A R",
+            "fontSize": "90px",
+            "fontStyle": "bold",
+            "color": "#e40000ff",
+            "stroke": "#000000ff",
+            "strokeThickness": 0.5
+        },
+        {
+            "type": "Text",
+            "id": "ed47b9e9-5850-4266-bb24-58cf347b739d",
+            "label": "titulo2",
+            "x": 815,
+            "y": 838,
+            "text": "J U G A R",
+            "fontSize": "60px",
+            "fontStyle": "bold",
+            "color": "#e20000ff",
+            "stroke": "#000000ff",
+            "strokeThickness": 0.5
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

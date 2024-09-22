@@ -1,0 +1,94 @@
+{
+    "anims": [
+        {
+            "key": "buho",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "giphy-1",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "giphy-2",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "giphy-3",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "giphy-4",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "giphy-5",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "giphy-6",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "giphy-7",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "giphy-8",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "giphy-9",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "giphy-90",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "giphy-91",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "giphy-92",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "giphy-93",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "giphy-94",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 14,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    },
+    "settings": {
+        "sourceLang": "JAVA_SCRIPT",
+        "esModule": false,
+        "generateCode": false
+    }
+}

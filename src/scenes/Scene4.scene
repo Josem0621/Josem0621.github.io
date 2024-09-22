@@ -1,0 +1,605 @@
+{
+    "id": "c6801b4a-b0c8-4605-9fec-f89fdfa7b837",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Scene4",
+        "borderWidth": 1910,
+        "borderHeight": 1000
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "3d5afff2-e233-4f03-940e-ff10a7f51940",
+            "label": "sky",
+            "texture": {
+                "key": "Sky"
+            },
+            "x": 960,
+            "y": 514,
+            "scaleX": 1.019027873136727,
+            "scaleY": 1.0830220525706495
+        },
+        {
+            "type": "Image",
+            "id": "b9c85ab4-2b78-4bc7-8b65-f8ade098d364",
+            "label": "nube",
+            "texture": {
+                "key": "nube1"
+            },
+            "x": 367,
+            "y": 612,
+            "ArcadeComponent.active": true,
+            "moves": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 320,
+            "body.height": 50,
+            "body.offset.x": 10,
+            "body.offset.y": 30
+        },
+        {
+            "type": "Image",
+            "id": "4ac4217e-0c8a-4d1c-b168-831878b057d0",
+            "label": "nube_1",
+            "texture": {
+                "key": "nube2"
+            },
+            "x": 901,
+            "y": 447,
+            "ArcadeComponent.active": true,
+            "moves": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 103,
+            "body.height": 30,
+            "body.offset.x": 10,
+            "body.offset.y": 30
+        },
+        {
+            "type": "Image",
+            "id": "d933b25f-72e5-4b61-8241-8e3a3ee05868",
+            "label": "nube_2",
+            "texture": {
+                "key": "nube3"
+            },
+            "x": 1109,
+            "y": 605,
+            "ArcadeComponent.active": true,
+            "moves": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 155,
+            "body.height": 40,
+            "body.offset.x": 10,
+            "body.offset.y": 35
+        },
+        {
+            "type": "Sprite",
+            "id": "d2416094-5ab2-4de4-bca4-e43075716a88",
+            "label": "star",
+            "texture": {
+                "key": "star"
+            },
+            "x": 362,
+            "y": 529,
+            "ArcadeComponent.active": true,
+            "moves": false,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27,
+            "animationPlayMethod": 1,
+            "animationKey": "stars"
+        },
+        {
+            "type": "Image",
+            "id": "7d15ae29-7c6e-419f-bcce-ae02ee492e8e",
+            "label": "nube_3",
+            "texture": {
+                "key": "nube4"
+            },
+            "x": 888,
+            "y": 723,
+            "ArcadeComponent.active": true,
+            "moves": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 135,
+            "body.height": 20,
+            "body.offset.x": 10,
+            "body.offset.y": 30
+        },
+        {
+            "type": "Image",
+            "id": "fe66c741-1d16-4601-9dd3-0e33c0d8ffdd",
+            "label": "nube_4",
+            "texture": {
+                "key": "nube5"
+            },
+            "x": 1345,
+            "y": 300,
+            "ArcadeComponent.active": true,
+            "moves": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 164,
+            "body.height": 27,
+            "body.offset.x": 10,
+            "body.offset.y": 20
+        },
+        {
+            "type": "Image",
+            "id": "1f4e43f8-c158-41db-9ee9-e96f2f3d9edc",
+            "label": "nube_5",
+            "texture": {
+                "key": "nube6"
+            },
+            "x": 1570,
+            "y": 611,
+            "ArcadeComponent.active": true,
+            "moves": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 228,
+            "body.height": 39,
+            "body.offset.x": 10,
+            "body.offset.y": 21
+        },
+        {
+            "type": "Image",
+            "id": "07957389-fd5b-4c65-b4c2-2dbe45f0c01a",
+            "label": "nube_6",
+            "texture": {
+                "key": "nube1"
+            },
+            "x": 1693,
+            "y": 436,
+            "ArcadeComponent.active": true,
+            "moves": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 320,
+            "body.height": 30,
+            "body.offset.x": 10,
+            "body.offset.y": 50
+        },
+        {
+            "type": "Image",
+            "id": "388cf1f9-ce12-4f00-8ee6-4e4eaee06369",
+            "label": "nube_7",
+            "texture": {
+                "key": "nube6"
+            },
+            "x": 713,
+            "y": 295,
+            "ArcadeComponent.active": true,
+            "moves": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 228,
+            "body.height": 31,
+            "body.offset.x": 10,
+            "body.offset.y": 30
+        },
+        {
+            "type": "Image",
+            "id": "8a63d65b-76d3-4316-9a78-99da7a0c6788",
+            "label": "nube_8",
+            "texture": {
+                "key": "nube4"
+            },
+            "x": 244,
+            "y": 293,
+            "ArcadeComponent.active": true,
+            "moves": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 135,
+            "body.height": 20,
+            "body.offset.x": 10,
+            "body.offset.y": 30
+        },
+        {
+            "type": "Image",
+            "id": "1bb08fa8-ebe9-4866-9312-885e9edf960c",
+            "label": "nube_9",
+            "texture": {
+                "key": "nube1"
+            },
+            "x": 277,
+            "y": 138,
+            "ArcadeComponent.active": true,
+            "moves": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 320,
+            "body.height": 30,
+            "body.offset.x": 10,
+            "body.offset.y": 50
+        },
+        {
+            "type": "Image",
+            "id": "a9249588-7b16-410e-9498-9dd84bf9190b",
+            "label": "nube_10",
+            "texture": {
+                "key": "nube3"
+            },
+            "x": 496,
+            "y": 458,
+            "ArcadeComponent.active": true,
+            "moves": false,
+            "pushable": false,
+            "immovable": true,
+            "body.width": 155,
+            "body.height": 40,
+            "body.offset.x": 10,
+            "body.offset.y": 35
+        },
+        {
+            "type": "Sprite",
+            "id": "caa177ad-8c07-4dc0-9332-1807dc07374d",
+            "label": "star_1",
+            "texture": {
+                "key": "star"
+            },
+            "x": 424,
+            "y": 529,
+            "ArcadeComponent.active": true,
+            "moves": false,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27,
+            "animationPlayMethod": 1,
+            "animationKey": "stars"
+        },
+        {
+            "type": "Sprite",
+            "id": "e30434c4-309c-4e68-a235-601315f81196",
+            "label": "star_2",
+            "texture": {
+                "key": "star"
+            },
+            "x": 297,
+            "y": 529,
+            "ArcadeComponent.active": true,
+            "moves": false,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27,
+            "animationPlayMethod": 1,
+            "animationKey": "stars"
+        },
+        {
+            "type": "Sprite",
+            "id": "f080c56f-c876-47cc-a1df-a1668ad18eda",
+            "label": "star_3",
+            "texture": {
+                "key": "star"
+            },
+            "x": 894,
+            "y": 382,
+            "ArcadeComponent.active": true,
+            "moves": false,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27,
+            "animationPlayMethod": 1,
+            "animationKey": "stars"
+        },
+        {
+            "type": "Sprite",
+            "id": "da82f59a-c518-45c4-9ae5-98495f551047",
+            "label": "star_4",
+            "texture": {
+                "key": "star"
+            },
+            "x": 660,
+            "y": 218,
+            "ArcadeComponent.active": true,
+            "moves": false,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27,
+            "animationPlayMethod": 1,
+            "animationKey": "stars"
+        },
+        {
+            "type": "Sprite",
+            "id": "75016af7-98cb-4bb5-be4e-5b17682a8d6b",
+            "label": "star_5",
+            "texture": {
+                "key": "star"
+            },
+            "x": 712,
+            "y": 218,
+            "ArcadeComponent.active": true,
+            "moves": false,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27,
+            "animationPlayMethod": 1,
+            "animationKey": "stars"
+        },
+        {
+            "type": "Sprite",
+            "id": "51fed78d-4ff7-4bd0-801c-2382c896f1b1",
+            "label": "star_6",
+            "texture": {
+                "key": "star"
+            },
+            "x": 762,
+            "y": 219,
+            "ArcadeComponent.active": true,
+            "moves": false,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27,
+            "animationPlayMethod": 1,
+            "animationKey": "stars"
+        },
+        {
+            "type": "Sprite",
+            "id": "d6e54f76-6978-4ef5-8f2a-c8de8d3149fd",
+            "label": "star_7",
+            "texture": {
+                "key": "star"
+            },
+            "x": 730,
+            "y": 691,
+            "ArcadeComponent.active": true,
+            "moves": false,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27,
+            "animationPlayMethod": 1,
+            "animationKey": "stars"
+        },
+        {
+            "type": "Sprite",
+            "id": "38f036ab-2021-41c4-8923-c5a89a54b5fa",
+            "label": "star_8",
+            "texture": {
+                "key": "star"
+            },
+            "x": 1596,
+            "y": 346,
+            "ArcadeComponent.active": true,
+            "moves": false,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27,
+            "animationPlayMethod": 1,
+            "animationKey": "stars"
+        },
+        {
+            "type": "Sprite",
+            "id": "6fa8cae7-8577-4300-9f26-d3ee5f21dc47",
+            "label": "star_9",
+            "texture": {
+                "key": "star"
+            },
+            "x": 1648,
+            "y": 381,
+            "ArcadeComponent.active": true,
+            "moves": false,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27,
+            "animationPlayMethod": 1,
+            "animationKey": "stars"
+        },
+        {
+            "type": "Sprite",
+            "id": "aed80123-d81c-4293-b79e-2be60ce9976c",
+            "label": "star_10",
+            "texture": {
+                "key": "star"
+            },
+            "x": 1708,
+            "y": 346,
+            "ArcadeComponent.active": true,
+            "moves": false,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27,
+            "animationPlayMethod": 1,
+            "animationKey": "stars"
+        },
+        {
+            "type": "Sprite",
+            "id": "b49e7fc7-378e-43b1-af99-bf9003cf0809",
+            "label": "star_11",
+            "texture": {
+                "key": "star"
+            },
+            "x": 1764,
+            "y": 381,
+            "ArcadeComponent.active": true,
+            "moves": false,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27,
+            "animationPlayMethod": 1,
+            "animationKey": "stars"
+        },
+        {
+            "type": "Sprite",
+            "id": "754cbfcd-7dba-4607-8124-d27c200f6abc",
+            "label": "star_12",
+            "texture": {
+                "key": "star"
+            },
+            "x": 1820,
+            "y": 347,
+            "ArcadeComponent.active": true,
+            "moves": false,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27,
+            "animationPlayMethod": 1,
+            "animationKey": "stars"
+        },
+        {
+            "type": "Image",
+            "id": "40ff8050-948a-4bbf-8506-3bd578d8d1b1",
+            "label": "gem",
+            "texture": {
+                "key": "gem1"
+            },
+            "x": 179,
+            "y": 56,
+            "scaleX": 2.0720781173526652,
+            "scaleY": 2.2577809083700555,
+            "ArcadeComponent.active": true,
+            "moves": false,
+            "body.bounce.y": 0.5,
+            "body.width": 20,
+            "body.height": 16
+        },
+        {
+            "type": "Image",
+            "id": "3e0c6aef-fa58-46a9-8d28-42f97766d509",
+            "label": "gem_1",
+            "texture": {
+                "key": "gem1"
+            },
+            "x": 1750,
+            "y": 59,
+            "scaleX": 2.0720781173526652,
+            "scaleY": 2.2577809083700555,
+            "ArcadeComponent.active": true,
+            "moves": false,
+            "body.bounce.y": 0.5,
+            "body.width": 20,
+            "body.height": 16
+        },
+        {
+            "type": "Sprite",
+            "id": "6d73e86c-6d12-4745-a3a6-6e326bb4fc32",
+            "label": "star_13",
+            "texture": {
+                "key": "star"
+            },
+            "x": 1341,
+            "y": 236,
+            "ArcadeComponent.active": true,
+            "moves": false,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27,
+            "animationPlayMethod": 1,
+            "animationKey": "stars"
+        },
+        {
+            "type": "Sprite",
+            "id": "cda037b6-8a89-42df-8fc0-6c6f2a206506",
+            "label": "star_14",
+            "texture": {
+                "key": "star"
+            },
+            "x": 1518,
+            "y": 527,
+            "ArcadeComponent.active": true,
+            "moves": false,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27,
+            "animationPlayMethod": 1,
+            "animationKey": "stars"
+        },
+        {
+            "type": "Sprite",
+            "id": "a6802e6f-d070-46ab-87af-ae1753f1883f",
+            "label": "star_15",
+            "texture": {
+                "key": "star"
+            },
+            "x": 1618,
+            "y": 527,
+            "ArcadeComponent.active": true,
+            "moves": false,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27,
+            "animationPlayMethod": 1,
+            "animationKey": "stars"
+        },
+        {
+            "type": "Sprite",
+            "id": "cbb848a1-b3db-4289-bd0b-cbe827c260e2",
+            "label": "sharks_2",
+            "texture": {
+                "key": "giphy-1"
+            },
+            "x": 52,
+            "y": 344,
+            "flipX": true,
+            "ArcadeComponent.active": true,
+            "body.velocity.x": 100,
+            "allowGravity": false,
+            "collideWorldBounds": true,
+            "body.width": 55,
+            "body.height": 40,
+            "body.offset.x": 30,
+            "body.offset.y": 30,
+            "animationPlayMethod": 1,
+            "animationKey": "buho"
+        },
+        {
+            "type": "Sprite",
+            "id": "fa087122-c3cd-44d3-abc5-831b8de4ced4",
+            "label": "sharks",
+            "texture": {
+                "key": "giphy-1"
+            },
+            "x": 1869.646959849673,
+            "y": 135.3119326548622,
+            "ArcadeComponent.active": true,
+            "body.velocity.x": -100,
+            "allowGravity": false,
+            "collideWorldBounds": true,
+            "body.width": 55,
+            "body.height": 40,
+            "body.offset.x": 10,
+            "body.offset.y": 30,
+            "animationPlayMethod": 1,
+            "animationKey": "buho"
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "111679d0-cdf5-4873-9058-9e132fc1ce51",
+            "type": "Collider",
+            "label": "collider",
+            "scope": "LOCAL",
+            "object1": "plataformas",
+            "object2": "player"
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "48637b83-5866-4f8b-9130-ce7b14eb0632",
+            "label": "plataformas",
+            "objectIds": [
+                "b9c85ab4-2b78-4bc7-8b65-f8ade098d364",
+                "4ac4217e-0c8a-4d1c-b168-831878b057d0",
+                "d933b25f-72e5-4b61-8241-8e3a3ee05868",
+                "7d15ae29-7c6e-419f-bcce-ae02ee492e8e",
+                "a9249588-7b16-410e-9498-9dd84bf9190b",
+                "388cf1f9-ce12-4f00-8ee6-4e4eaee06369",
+                "1f4e43f8-c158-41db-9ee9-e96f2f3d9edc",
+                "07957389-fd5b-4c65-b4c2-2dbe45f0c01a",
+                "fe66c741-1d16-4601-9dd3-0e33c0d8ffdd",
+                "8a63d65b-76d3-4316-9a78-99da7a0c6788",
+                "1bb08fa8-ebe9-4866-9312-885e9edf960c"
+            ]
+        }
+    ]
+}

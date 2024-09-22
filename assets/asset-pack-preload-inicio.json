@@ -1,0 +1,85 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/crab1.png",
+                "type": "image",
+                "key": "crab1"
+            },
+            {
+                "url": "assets/crab2.png",
+                "type": "image",
+                "key": "crab2"
+            },
+            {
+                "url": "assets/crab3.png",
+                "type": "image",
+                "key": "crab3"
+            },
+            {
+                "url": "assets/crab4.png",
+                "type": "image",
+                "key": "crab4"
+            },
+            {
+                "url": "assets/crab5.png",
+                "type": "image",
+                "key": "crab5"
+            },
+            {
+                "url": "assets/crab6.png",
+                "type": "image",
+                "key": "crab6"
+            },
+            {
+                "url": "assets/crab7.png",
+                "type": "image",
+                "key": "crab7"
+            },
+            {
+                "url": "assets/crabs.png",
+                "type": "image",
+                "key": "crabs"
+            },
+            {
+                "url": "assets/sharks.png",
+                "type": "image",
+                "key": "sharks"
+            },
+            {
+                "url": "assets/sharks1.png",
+                "type": "image",
+                "key": "sharks1"
+            },
+            {
+                "url": "assets/sharks2.png",
+                "type": "image",
+                "key": "sharks2"
+            },
+            {
+                "url": "assets/sharks3.png",
+                "type": "image",
+                "key": "sharks3"
+            },
+            {
+                "url": "assets/sharks4.png",
+                "type": "image",
+                "key": "sharks4"
+            },
+            {
+                "url": "assets/preload.json",
+                "type": "animation",
+                "key": "preload"
+            }
+
+            
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

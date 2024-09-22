@@ -1,0 +1,50 @@
+{
+    "anims": [
+        {
+            "key": "sierras",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "saw1",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "saw2",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "saw3",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "saw4",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "saw5",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "repeatDelay": 1000,
+            "randomFrame": false
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    },
+    "settings": {
+        "sourceLang": "JAVA_SCRIPT",
+        "esModule": false,
+        "generateCode": false
+    }
+}

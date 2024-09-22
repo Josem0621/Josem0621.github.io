@@ -1,0 +1,108 @@
+{
+    "id": "5d76e239-5d65-4fa7-b267-25741b7becef",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Preload3",
+        "borderWidth": 1910,
+        "borderHeight": 1000
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "b02b0c04-64d8-4077-9e2b-fd4c6463bcc5",
+            "label": "jungle",
+            "texture": {
+                "key": "Jungle"
+            },
+            "x": 961,
+            "y": 514,
+            "scaleX": 1.927092607278662,
+            "scaleY": 1.6847823225337388
+        },
+        {
+            "type": "Image",
+            "id": "8eb52b8a-90c0-4012-9ac6-42b3827decc2",
+            "label": "deco2jungle",
+            "texture": {
+                "key": "deco2jungle"
+            },
+            "x": 919,
+            "y": 415,
+            "scaleX": 4.3220945990871815,
+            "scaleY": 4.3220945990871815
+        },
+        {
+            "type": "Rectangle",
+            "id": "a179cee4-4ec8-44a6-a8d2-44dcc0274e05",
+            "label": "progressBar",
+            "x": 450,
+            "y": 478,
+            "scaleX": 4,
+            "scaleY": 4,
+            "originX": 0,
+            "originY": 0,
+            "isFilled": true,
+            "fillColor": "#e0e0e0",
+            "width": 256,
+            "height": 20,
+            "list": [
+                {
+                    "prefabId": "ca949479-ab4d-45d5-b856-2cbecbd8d127",
+                    "id": "e11cf11e-4a59-4eb6-91e0-0367af730c59",
+                    "label": "preloadUpdater"
+                }
+            ]
+        },
+        {
+            "type": "Rectangle",
+            "id": "e00bbff4-6e23-45a2-a2c9-1ec49bd5bbea",
+            "label": "progressBarBg",
+            "x": 450,
+            "y": 478,
+            "scaleX": 4,
+            "scaleY": 4,
+            "originX": 0,
+            "originY": 0,
+            "fillColor": "#e0e0e0",
+            "isStroked": true,
+            "width": 256,
+            "height": 20
+        },
+        {
+            "type": "Text",
+            "id": "6e405a4b-6c21-460f-84a6-e5dce2aa07b1",
+            "label": "loadingText",
+            "x": 434,
+            "y": 364,
+            "scaleX": 4,
+            "scaleY": 4,
+            "text": "Loading...",
+            "fontFamily": "arial",
+            "fontSize": "20px",
+            "color": "#e0e0e0"
+        },
+        {
+            "type": "Sprite",
+            "id": "a7a165f2-38f6-4a46-a390-13ef0f2b0577",
+            "label": "gorilas",
+            "texture": {
+                "key": "gorilas"
+            },
+            "x": 930,
+            "y": 362,
+            "scaleX": 3.0746112469698534,
+            "scaleY": 3.0746112469698534,
+            "animationPlayMethod": 1,
+            "animationKey": "Gorila"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

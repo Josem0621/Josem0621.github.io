@@ -1,0 +1,108 @@
+{
+    "id": "42458cf3-c647-49e9-8d98-716abc2684a5",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Final",
+        "borderWidth": 1910,
+        "borderHeight": 1000
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "a2b75d67-99a3-4eac-b4fd-3c86b8126253",
+            "label": "fondofinal",
+            "texture": {
+                "key": "fondofinal"
+            },
+            "x": 954,
+            "y": 495
+        },
+        {
+            "type": "Text",
+            "id": "7fe79658-8bd3-4177-8898-73ab3c23d883",
+            "label": "text_1",
+            "x": 412,
+            "y": 133,
+            "text": "Gracias Por Jugar",
+            "fontSize": "100px",
+            "fontStyle": "bold",
+            "color": "#00fb64ff",
+            "stroke": "#000000ff",
+            "strokeThickness": 2
+        },
+        {
+            "type": "Text",
+            "id": "50943abd-caf0-4871-ba88-4c45e0b0a190",
+            "label": "text_2",
+            "x": 588,
+            "y": 356,
+            "text": "Desarrollado Por:",
+            "fontSize": "70px",
+            "fontStyle": "bold",
+            "color": "#df0505ff",
+            "stroke": "#000000ff",
+            "strokeThickness": 2
+        },
+        {
+            "type": "Text",
+            "id": "e2afe3e8-c80e-4bf2-8a44-48452db20238",
+            "label": "text_3",
+            "x": 155,
+            "y": 482,
+            "text": "Isaac Serna Tamayo",
+            "fontSize": "60px",
+            "fontStyle": "bold",
+            "color": "#20aa03ff",
+            "stroke": "#000000ff",
+            "strokeThickness": 3
+        },
+        {
+            "type": "Text",
+            "id": "9a1b286e-6072-48c4-b492-61cf64aeefb8",
+            "label": "text_4",
+            "x": 272,
+            "y": 789,
+            "text": "Jose Manuel Carmona Mendez",
+            "fontSize": "60px",
+            "fontStyle": "bold",
+            "color": "#43f225ff",
+            "stroke": "#000000ff",
+            "strokeThickness": 2
+        },
+        {
+            "type": "Text",
+            "id": "d25e6b4b-d610-454c-a7da-277dd29cf1dd",
+            "label": "text_5",
+            "x": 973,
+            "y": 494,
+            "text": "(Backend - Frontend)",
+            "fontSize": "60px",
+            "fontStyle": "bold",
+            "color": "#ffffffff",
+            "stroke": "#000000ff",
+            "strokeThickness": 2
+        },
+        {
+            "type": "Text",
+            "id": "9dabe126-e195-4013-a0b2-b43e026f00e8",
+            "label": "text_6",
+            "x": 1253,
+            "y": 787,
+            "text": "(Frontend)",
+            "fontSize": "60px",
+            "fontStyle": "bold",
+            "color": "#13a9ffff",
+            "stroke": "#000000ff",
+            "strokeThickness": 2
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/gato.png",
+                "type": "image",
+                "key": "gato"
+            },
+            {
+                "url": "assets/gato-frames.png",
+                "type": "image",
+                "key": "gato-frames"
+            },
+            {
+                "url": "assets/koala.png",
+                "type": "image",
+                "key": "koala"
+            },
+            {
+                "url": "assets/koala-frames.png",
+                "type": "image",
+                "key": "koala-frames"
+            },
+            {
+                "url": "assets/panda.png",
+                "type": "image",
+                "key": "panda"
+            },
+            {
+                "url": "assets/panda-frames.png",
+                "type": "image",
+                "key": "panda-frames"
+            },
+            {
+                "url": "assets/Toro.png",
+                "type": "image",
+                "key": "Toro"
+            },
+            {
+                "url": "assets/Toro-frames.png",
+                "type": "image",
+                "key": "Toro-frames"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

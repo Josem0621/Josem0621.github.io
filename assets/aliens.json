@@ -1,0 +1,54 @@
+{
+    "anims": [
+        {
+            "key": "aliens",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "Alien1",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Alien2",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Alien3",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Alien4",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Alien5",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Alien6",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    },
+    "settings": {
+        "sourceLang": "JAVA_SCRIPT",
+        "esModule": false,
+        "generateCode": false
+    }
+}

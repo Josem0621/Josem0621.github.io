@@ -1,0 +1,436 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/acuamuteButton.png",
+                "type": "image",
+                "key": "acuamuteButton"
+            },
+            {
+                "url": "assets/acuarestartButton.png",
+                "type": "image",
+                "key": "acuarestartButton"
+            },
+            {
+                "url": "assets/acuarplayButton.png",
+                "type": "image",
+                "key": "acuarplayButton"
+            },
+            {
+                "url": "assets/acuarstopButton.png",
+                "type": "image",
+                "key": "acuarstopButton"
+            },
+            {
+                "url": "assets/acuasoundButton.png",
+                "type": "image",
+                "key": "acuasoundButton"
+            },
+            
+            {
+                "url": "assets/Alien.png",
+                "type": "image",
+                "key": "Alien"
+            },
+            {
+                "url": "assets/Alien1.png",
+                "type": "image",
+                "key": "Alien1"
+            },
+            {
+                "url": "assets/Alien2.png",
+                "type": "image",
+                "key": "Alien2"
+            },
+            {
+                "url": "assets/Alien3.png",
+                "type": "image",
+                "key": "Alien3"
+            },
+            {
+                "url": "assets/Alien4.png",
+                "type": "image",
+                "key": "Alien4"
+            },
+            {
+                "url": "assets/Alien5.png",
+                "type": "image",
+                "key": "Alien5"
+            },
+            {
+                "url": "assets/Alien6.png",
+                "type": "image",
+                "key": "Alien6"
+            },
+            {
+                "url": "assets/aliens.json",
+                "type": "animation",
+                "key": "aliens"
+            },
+            
+            {
+                "url": "assets/bomb.png",
+                "type": "image",
+                "key": "bomb"
+            },
+            
+            {
+                "url": [
+                    "assets/caida.wav"
+                ],
+                "type": "audio",
+                "key": "caida"
+            },
+            
+            {
+                "url": "assets/despausa.png",
+                "type": "image",
+                "key": "despausa"
+            },
+            {
+                "url": "assets/Diamante.png",
+                "type": "image",
+                "key": "Diamante"
+            },
+            {
+                "url": "assets/escaleras.png",
+                "type": "image",
+                "key": "escaleras"
+            },
+            {
+                "url": "assets/escaleras_grandes.png",
+                "type": "image",
+                "key": "escaleras_grandes"
+            },
+           
+            {
+                "url": "assets/fondofinal.png",
+                "type": "image",
+                "key": "fondofinal"
+            },
+            
+            {
+                "url": "assets/gato.png",
+                "type": "image",
+                "key": "gato"
+            },
+            {
+                "url": "assets/gato-frames.png",
+                "type": "image",
+                "key": "gato-frames"
+            },
+            {
+                "url": "assets/gem1.png",
+                "type": "image",
+                "key": "gem1"
+            },
+           
+            
+            {
+                "url": "assets/homeIcon.png",
+                "type": "image",
+                "key": "homeIcon"
+            },
+            {
+                "url": [
+                    "assets/items.wav"
+                ],
+                "type": "audio",
+                "key": "items"
+            },
+            {
+                "url": [
+                    "assets/jump.wav"
+                ],
+                "type": "audio",
+                "key": "jump"
+            },
+            
+            {
+                "url": "assets/koala.png",
+                "type": "image",
+                "key": "koala"
+            },
+            {
+                "url": "assets/koala-frames.png",
+                "type": "image",
+                "key": "koala-frames"
+            },
+            
+            {
+                "url": [
+                    "assets/menu_music.mp3"
+                ],
+                "type": "audio",
+                "key": "menu_music"
+            },
+           
+            {
+                "url": "assets/moneda.png",
+                "type": "image",
+                "key": "moneda"
+            },
+            {
+                "url": "assets/moneda_1.png",
+                "type": "image",
+                "key": "moneda_1"
+            },
+            {
+                "url": "assets/moneda_2.png",
+                "type": "image",
+                "key": "moneda_2"
+            },
+            {
+                "url": "assets/moneda_3.png",
+                "type": "image",
+                "key": "moneda_3"
+            },
+            {
+                "url": "assets/moneda_4.png",
+                "type": "image",
+                "key": "moneda_4"
+            },
+            {
+                "url": "assets/moneda_5.png",
+                "type": "image",
+                "key": "moneda_5"
+            },
+            {
+                "url": "assets/moneda_6.png",
+                "type": "image",
+                "key": "moneda_6"
+            },
+            {
+                "url": "assets/moneda_7.png",
+                "type": "image",
+                "key": "moneda_7"
+            },
+            {
+                "url": "assets/moneda_8.png",
+                "type": "image",
+                "key": "moneda_8"
+            },
+            {
+                "url": "assets/monedas.json",
+                "type": "animation",
+                "key": "monedas"
+            },
+            {
+                "url": "assets/monedasilver.png",
+                "type": "image",
+                "key": "monedasilver"
+            },
+            {
+                "url": "assets/monedasilver1.png",
+                "type": "image",
+                "key": "monedasilver1"
+            },
+            {
+                "url": "assets/monedasilver2.png",
+                "type": "image",
+                "key": "monedasilver2"
+            },
+            {
+                "url": "assets/monedasilver3.png",
+                "type": "image",
+                "key": "monedasilver3"
+            },
+            {
+                "url": "assets/monedasilver4.png",
+                "type": "image",
+                "key": "monedasilver4"
+            },
+            {
+                "url": "assets/monedasilver5.png",
+                "type": "image",
+                "key": "monedasilver5"
+            },
+            {
+                "url": "assets/monedasilver6.png",
+                "type": "image",
+                "key": "monedasilver6"
+            },
+            {
+                "url": "assets/monedasilver7.png",
+                "type": "image",
+                "key": "monedasilver7"
+            },
+            {
+                "url": "assets/monedasilver8.png",
+                "type": "image",
+                "key": "monedasilver8"
+            },
+           
+            {
+                "url": [
+                    "assets/music.mp3"
+                ],
+                "type": "audio",
+                "key": "music"
+            },
+            {
+                "url": "assets/musicButton.png",
+                "type": "image",
+                "key": "musicButton"
+            },
+            {
+                "url": "assets/mute.png",
+                "type": "image",
+                "key": "mute"
+            },
+            {
+                "url": "assets/muteButton.png",
+                "type": "image",
+                "key": "muteButton"
+            },
+ 
+            {
+                "url": [
+                    "assets/oversound.wav"
+                ],
+                "type": "audio",
+                "key": "oversound"
+            },
+            {
+                "url": "assets/ovni.png",
+                "type": "image",
+                "key": "ovni"
+            },
+            {
+                "url": "assets/panda.png",
+                "type": "image",
+                "key": "panda"
+            },
+            {
+                "url": "assets/panda-frames.png",
+                "type": "image",
+                "key": "panda-frames"
+            },
+            
+            {
+                "url": "assets/pausa.png",
+                "type": "image",
+                "key": "pausa"
+            },
+            
+            {
+                "url": "assets/platspace-part.png",
+                "type": "image",
+                "key": "platspace-part"
+            },
+            {
+                "url": "assets/platspace1.png",
+                "type": "image",
+                "key": "platspace1"
+            },
+            {
+                "url": "assets/platspace2.png",
+                "type": "image",
+                "key": "platspace2"
+            },
+            {
+                "url": "assets/platspace3.png",
+                "type": "image",
+                "key": "platspace3"
+            },
+            {
+                "url": "assets/platspace4.png",
+                "type": "image",
+                "key": "platspace4"
+            },
+            {
+                "url": "assets/playButton.png",
+                "type": "image",
+                "key": "playButton"
+            },
+            {
+                "url": "assets/restartButton.png",
+                "type": "image",
+                "key": "restartButton"
+            },
+            {
+                "url": "assets/retro.png",
+                "type": "image",
+                "key": "retro"
+            },
+            {
+                "url": "assets/roca.png",
+                "type": "image",
+                "key": "roca"
+            },
+            
+           
+            {
+                "url": "assets/sonidoicono.png",
+                "type": "image",
+                "key": "sonidoicono"
+            },
+            {
+                "url": "assets/Space Background (1).png",
+                "type": "image",
+                "key": "Space Background (1)"
+            },
+            {
+                "url": [
+                    "assets/spacemusic.ogg"
+                ],
+                "type": "audio",
+                "key": "spacemusic"
+            },
+            {
+                "url": "assets/star.png",
+                "type": "image",
+                "key": "star"
+            },
+            {
+                "url": "assets/star2.png",
+                "type": "image",
+                "key": "star2"
+            },
+            {
+                "url": "assets/star3.png",
+                "type": "image",
+                "key": "star3"
+            },
+            {
+                "url": "assets/star4.png",
+                "type": "image",
+                "key": "star4"
+            },
+           
+            {
+                "url": "src/components/StartAnimation.js",
+                "type": "script",
+                "key": "StartAnimation"
+            },
+            {
+                "url": "assets/stopButton.png",
+                "type": "image",
+                "key": "stopButton"
+            },
+            
+            {
+                "url": "assets/Toro.png",
+                "type": "image",
+                "key": "Toro"
+            },
+            {
+                "url": "assets/Toro-frames.png",
+                "type": "image",
+                "key": "Toro-frames"
+            },
+            {
+                "url": "assets/underwater-fantasy-preview.png",
+                "type": "image",
+                "key": "underwater-fantasy-preview"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

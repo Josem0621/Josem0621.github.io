@@ -1,0 +1,424 @@
+{
+    "id": "3bd2cef7-8dbe-40db-81a8-e4cd8daa251f",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Scene5",
+        "borderWidth": 1910,
+        "borderHeight": 1000
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "0f44d3e1-e8ce-4d46-af29-50c266de838a",
+            "label": "space_Background__1_",
+            "texture": {
+                "key": "Space Background (1)"
+            },
+            "x": 951,
+            "y": 492
+        },
+        {
+            "type": "Image",
+            "id": "f10b0f53-dca1-4927-bffc-b02f8dc4946d",
+            "label": "platspace4",
+            "texture": {
+                "key": "platspace4"
+            },
+            "x": 393,
+            "y": 800,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 286,
+            "body.height": 86
+        },
+        {
+            "type": "Image",
+            "id": "a6615a5b-c99c-4182-9970-deb6a5b03b8a",
+            "label": "platspace1",
+            "texture": {
+                "key": "platspace1"
+            },
+            "x": 700,
+            "y": 739,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 88,
+            "body.height": 86
+        },
+        {
+            "type": "Image",
+            "id": "d2a944d6-e164-412f-9f9f-1ef98f63ad69",
+            "label": "platspace2",
+            "texture": {
+                "key": "platspace2"
+            },
+            "x": 1037,
+            "y": 843,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 220,
+            "body.height": 86
+        },
+        {
+            "type": "Image",
+            "id": "0a5a17ac-e67b-4729-9f5c-b08befaa2d03",
+            "label": "platspace_part",
+            "texture": {
+                "key": "platspace-part"
+            },
+            "x": 1104,
+            "y": 769,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 86,
+            "body.height": 76
+        },
+        {
+            "type": "Image",
+            "id": "d86c597a-c2db-4d6a-90b2-b400146f017c",
+            "label": "platspace",
+            "texture": {
+                "key": "platspace2"
+            },
+            "x": 1384,
+            "y": 776,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 220,
+            "body.height": 86
+        },
+        {
+            "type": "Image",
+            "id": "e0e03e1e-6b78-4e68-9444-d05ecb65d25f",
+            "label": "platspace_1",
+            "texture": {
+                "key": "platspace1"
+            },
+            "x": 1628,
+            "y": 723,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 88,
+            "body.height": 86
+        },
+        {
+            "type": "Image",
+            "id": "2a4a6797-71d1-4a8d-ab53-59b4dfa0fc14",
+            "label": "platspace_2",
+            "texture": {
+                "key": "platspace1"
+            },
+            "x": 1808,
+            "y": 692,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 88,
+            "body.height": 86
+        },
+        {
+            "type": "Image",
+            "id": "93888877-1cfd-4ac8-85b1-971d4141ac19",
+            "label": "platspace3",
+            "texture": {
+                "key": "platspace3"
+            },
+            "x": 1628,
+            "y": 357,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 154,
+            "body.height": 86
+        },
+        {
+            "type": "Image",
+            "id": "1d734974-cf60-4cf1-93de-ce2178d863fc",
+            "label": "platspace_4",
+            "texture": {
+                "key": "platspace4"
+            },
+            "x": 1308,
+            "y": 421,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 286,
+            "body.height": 86
+        },
+        {
+            "type": "Image",
+            "id": "69ea0b08-7c68-4fcc-aded-d262d7f28c98",
+            "label": "platspace_part_2",
+            "texture": {
+                "key": "platspace-part"
+            },
+            "x": 1408,
+            "y": 348,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 86,
+            "body.height": 76
+        },
+        {
+            "type": "Image",
+            "id": "b922ae62-2d40-4c8d-ad0a-aa40a6747985",
+            "label": "platspace_part_1",
+            "texture": {
+                "key": "platspace-part"
+            },
+            "x": 1208,
+            "y": 348,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 86,
+            "body.height": 76
+        },
+        {
+            "type": "Image",
+            "id": "4503bed0-4f88-4231-970b-3f8d7c10b455",
+            "label": "platspace_5",
+            "texture": {
+                "key": "platspace3"
+            },
+            "x": 970,
+            "y": 399,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 154,
+            "body.height": 86
+        },
+        {
+            "type": "Image",
+            "id": "3cf7bf4d-b901-4701-94aa-53da06e2d6fb",
+            "label": "platspace_6",
+            "texture": {
+                "key": "platspace3"
+            },
+            "x": 696,
+            "y": 448,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 154,
+            "body.height": 86
+        },
+        {
+            "type": "Image",
+            "id": "cf8e17e6-d58f-48b9-9267-8b1e3a83bef2",
+            "label": "platspace_7",
+            "texture": {
+                "key": "platspace3"
+            },
+            "x": 398,
+            "y": 423,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 154,
+            "body.height": 86
+        },
+        {
+            "type": "Image",
+            "id": "882b2db1-6920-41ab-9124-6762fed0dc61",
+            "label": "platspace_8",
+            "texture": {
+                "key": "platspace1"
+            },
+            "x": 165,
+            "y": 425,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 88,
+            "body.height": 86
+        },
+        {
+            "type": "Image",
+            "id": "9d62d353-58d1-4e29-a130-3d13e107ea16",
+            "label": "platspace_9",
+            "texture": {
+                "key": "platspace1"
+            },
+            "x": 285,
+            "y": 144,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 88,
+            "body.height": 86
+        },
+        {
+            "type": "Image",
+            "id": "b40f0d65-f6fd-40ea-a6db-a6dd53e19d27",
+            "label": "platspace_10",
+            "texture": {
+                "key": "platspace1"
+            },
+            "x": 441,
+            "y": 144,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 88,
+            "body.height": 86
+        },
+        {
+            "type": "Image",
+            "id": "b9bcb1ca-9e4b-4502-b3db-b2a0b492be87",
+            "label": "platspace_3",
+            "texture": {
+                "key": "platspace1"
+            },
+            "x": 1877.1786018021921,
+            "y": 109.90398426115144,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 88,
+            "body.height": 86
+        },
+        {
+            "type": "Rectangle",
+            "id": "5183c31f-eb38-4aa5-b501-9eac2131cfbd",
+            "label": "rectangle_1",
+            "x": 962,
+            "y": 1025,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 2000,
+            "body.height": 128,
+            "width": 2000,
+            "height": 128
+        },
+        {
+            "type": "Image",
+            "id": "c4029286-7131-40e5-a18b-52abbf3ad118",
+            "label": "diamante",
+            "texture": {
+                "key": "Diamante"
+            },
+            "x": 313,
+            "y": 646,
+            "ArcadeComponent.active": true,
+            "body.bounce.y": 0.5,
+            "body.width": 30,
+            "body.height": 48
+        },
+        {
+            "type": "Image",
+            "id": "ac44f85d-2b49-41af-9f24-39f5f2e4c805",
+            "label": "diamante_1",
+            "texture": {
+                "key": "Diamante"
+            },
+            "x": 954,
+            "y": 696,
+            "ArcadeComponent.active": true,
+            "body.bounce.y": 0.5,
+            "body.width": 30,
+            "body.height": 48
+        },
+        {
+            "type": "Image",
+            "id": "092ab509-e11b-451f-9fd8-37129ba77691",
+            "label": "diamante_2",
+            "texture": {
+                "key": "Diamante"
+            },
+            "x": 1296,
+            "y": 652,
+            "ArcadeComponent.active": true,
+            "body.bounce.y": 0.5,
+            "body.width": 30,
+            "body.height": 48
+        },
+        {
+            "type": "Image",
+            "id": "5bba094e-e725-4e91-a98b-c1a89ff78e0b",
+            "label": "diamante_3",
+            "texture": {
+                "key": "Diamante"
+            },
+            "x": 1307,
+            "y": 252,
+            "ArcadeComponent.active": true,
+            "body.bounce.y": 0.5,
+            "body.width": 30,
+            "body.height": 48
+        },
+        {
+            "type": "Image",
+            "id": "bff6d0b1-80f2-4083-ad51-d4b16166b333",
+            "label": "diamante_4",
+            "texture": {
+                "key": "Diamante"
+            },
+            "x": 665,
+            "y": 227,
+            "ArcadeComponent.active": true,
+            "body.bounce.y": 0.5,
+            "body.width": 30,
+            "body.height": 48
+        },
+        {
+            "type": "Image",
+            "id": "298e806c-2a99-4a81-88b8-992113c103a4",
+            "label": "diamante_5",
+            "texture": {
+                "key": "Diamante"
+            },
+            "x": 278,
+            "y": 44,
+            "ArcadeComponent.active": true,
+            "body.bounce.y": 0.5,
+            "body.width": 30,
+            "body.height": 48
+        },
+        {
+            "type": "Image",
+            "id": "aca1a89e-7ea4-4fda-9155-a9eda92c6654",
+            "label": "diamante_6",
+            "texture": {
+                "key": "Diamante"
+            },
+            "x": 1870.736148221944,
+            "y": 25.365644258509267,
+            "ArcadeComponent.active": true,
+            "body.bounce.y": 0.5,
+            "body.width": 30,
+            "body.height": 48
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "815de827-a429-4951-9203-71f7e1c6d228",
+            "label": "plataformas",
+            "objectIds": [
+                "f10b0f53-dca1-4927-bffc-b02f8dc4946d",
+                "2a4a6797-71d1-4a8d-ab53-59b4dfa0fc14",
+                "e0e03e1e-6b78-4e68-9444-d05ecb65d25f",
+                "d86c597a-c2db-4d6a-90b2-b400146f017c",
+                "d2a944d6-e164-412f-9f9f-1ef98f63ad69",
+                "a6615a5b-c99c-4182-9970-deb6a5b03b8a",
+                "93888877-1cfd-4ac8-85b1-971d4141ac19",
+                "9d62d353-58d1-4e29-a130-3d13e107ea16",
+                "882b2db1-6920-41ab-9124-6762fed0dc61",
+                "1d734974-cf60-4cf1-93de-ce2178d863fc",
+                "b40f0d65-f6fd-40ea-a6db-a6dd53e19d27"
+            ]
+        },
+        {
+            "id": "0ddf1482-f442-4d19-a0d0-d74b29363a09",
+            "label": "diamantes",
+            "objectIds": [
+                "c4029286-7131-40e5-a18b-52abbf3ad118",
+                "298e806c-2a99-4a81-88b8-992113c103a4",
+                "bff6d0b1-80f2-4083-ad51-d4b16166b333",
+                "5bba094e-e725-4e91-a98b-c1a89ff78e0b",
+                "092ab509-e11b-451f-9fd8-37129ba77691",
+                "ac44f85d-2b49-41af-9f24-39f5f2e4c805"
+            ]
+        }
+    ]
+}

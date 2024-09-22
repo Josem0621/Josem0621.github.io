@@ -1,0 +1,114 @@
+{
+    "anims": [
+        {
+            "key": "monedas",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "moneda_1",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "moneda_2",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "moneda_3",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "moneda_4",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "moneda_5",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "moneda_6",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "moneda_7",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "moneda_8",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 13,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "msilver",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "monedasilver1",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "monedasilver2",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "monedasilver3",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "monedasilver4",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "monedasilver5",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "monedasilver6",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "monedasilver7",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "monedasilver8",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 13,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    },
+    "settings": {
+        "sourceLang": "JAVA_SCRIPT",
+        "esModule": false,
+        "generateCode": false
+    }
+}

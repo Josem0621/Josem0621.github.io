@@ -1,0 +1,271 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/acuamuteButton.png",
+                "type": "image",
+                "key": "acuamuteButton"
+            },
+            {
+                "url": "assets/acuarestartButton.png",
+                "type": "image",
+                "key": "acuarestartButton"
+            },
+            {
+                "url": "assets/acuarplayButton.png",
+                "type": "image",
+                "key": "acuarplayButton"
+            },
+            {
+                "url": "assets/acuarstopButton.png",
+                "type": "image",
+                "key": "acuarstopButton"
+            },
+            {
+                "url": "assets/acuasoundButton.png",
+                "type": "image",
+                "key": "acuasoundButton"
+            },
+            {
+                "url": "assets/coco.png",
+                "type": "image",
+                "key": "coco"
+            },
+            {
+                "url": "assets/deco2jungle.png",
+                "type": "image",
+                "key": "deco2jungle"
+            },
+            {
+                "url": "assets/deco4plat1.png",
+                "type": "image",
+                "key": "deco4plat1"
+            },
+            {
+                "url": "assets/deco6plat3.png",
+                "type": "image",
+                "key": "deco6plat3"
+            },
+            {
+                "url": "assets/decojungle.png",
+                "type": "image",
+                "key": "decojungle"
+            },
+            {
+                "url": "assets/gem1.png",
+                "type": "image",
+                "key": "gem1"
+            },
+            {
+                "url": "assets/Gorila.json",
+                "type": "animation",
+                "key": "Gorila"
+            },
+            {
+                "url": "assets/gorila-1.png",
+                "type": "image",
+                "key": "gorila-1"
+            },
+            {
+                "url": "assets/gorila-2.png",
+                "type": "image",
+                "key": "gorila-2"
+            },
+            {
+                "url": "assets/gorila-3.png",
+                "type": "image",
+                "key": "gorila-3"
+            },
+            {
+                "url": "assets/gorila-4.png",
+                "type": "image",
+                "key": "gorila-4"
+            },
+            {
+                "url": "assets/gorila-5.png",
+                "type": "image",
+                "key": "gorila-5"
+            },
+            {
+                "url": "assets/gorilas.png",
+                "type": "image",
+                "key": "gorilas"
+            },
+            {
+                "url": [
+                    "assets/items.wav"
+                ],
+                "type": "audio",
+                "key": "items"
+            },
+            {
+                "url": [
+                    "assets/jump.wav"
+                ],
+                "type": "audio",
+                "key": "jump"
+            },
+            {
+                "url": "assets/Jungle.jpg",
+                "type": "image",
+                "key": "Jungle"
+            },
+            {
+                "url": [
+                    "assets/JungleLevelSound.mp3"
+                ],
+                "type": "audio",
+                "key": "JungleLevelSound"
+            },
+            {
+                "url": "assets/moneda.png",
+                "type": "image",
+                "key": "moneda"
+            },
+            {
+                "url": "assets/moneda_1.png",
+                "type": "image",
+                "key": "moneda_1"
+            },
+            {
+                "url": "assets/moneda_2.png",
+                "type": "image",
+                "key": "moneda_2"
+            },
+            {
+                "url": "assets/moneda_3.png",
+                "type": "image",
+                "key": "moneda_3"
+            },
+            {
+                "url": "assets/moneda_4.png",
+                "type": "image",
+                "key": "moneda_4"
+            },
+            {
+                "url": "assets/moneda_5.png",
+                "type": "image",
+                "key": "moneda_5"
+            },
+            {
+                "url": "assets/moneda_6.png",
+                "type": "image",
+                "key": "moneda_6"
+            },
+            {
+                "url": "assets/moneda_7.png",
+                "type": "image",
+                "key": "moneda_7"
+            },
+            {
+                "url": "assets/moneda_8.png",
+                "type": "image",
+                "key": "moneda_8"
+            },
+            {
+                "url": "assets/monedas.json",
+                "type": "animation",
+                "key": "monedas"
+            },
+            {
+                "url": "assets/musicButton.png",
+                "type": "image",
+                "key": "musicButton"
+            },
+            {
+                "url": "assets/muteButton.png",
+                "type": "image",
+                "key": "muteButton"
+            },
+            {
+                "url": [
+                    "assets/oversound.wav"
+                ],
+                "type": "audio",
+                "key": "oversound"
+            },
+            {
+                "url": "assets/part1plat1_jungle.png",
+                "type": "image",
+                "key": "part1plat1_jungle"
+            },
+            {
+                "url": "assets/part1plat2_jungle.png",
+                "type": "image",
+                "key": "part1plat2_jungle"
+            },
+            {
+                "url": "assets/part1plat3_jungle.png",
+                "type": "image",
+                "key": "part1plat3_jungle"
+            },
+            {
+                "url": "assets/part1plat4_jungle.png",
+                "type": "image",
+                "key": "part1plat4_jungle"
+            },
+            {
+                "url": "assets/part1plat5_jungle.png",
+                "type": "image",
+                "key": "part1plat5_jungle"
+            },
+            {
+                "url": "assets/part1plat6_jungle.png",
+                "type": "image",
+                "key": "part1plat6_jungle"
+            },
+            {
+                "url": "assets/plat1_jungle.png",
+                "type": "image",
+                "key": "plat1_jungle"
+            },
+            {
+                "url": "assets/plat2_jungle.png",
+                "type": "image",
+                "key": "plat2_jungle"
+            },
+            {
+                "url": "assets/plat3_jungle.png",
+                "type": "image",
+                "key": "plat3_jungle"
+            },
+            {
+                "url": "assets/plat4_jungle.png",
+                "type": "image",
+                "key": "plat4_jungle"
+            },
+            {
+                "url": "assets/plat5_jungle.png",
+                "type": "image",
+                "key": "plat5_jungle"
+            },
+            {
+                "url": "assets/plat6_jungle.png",
+                "type": "image",
+                "key": "plat6_jungle"
+            },
+            {
+                "url": "assets/playButton.png",
+                "type": "image",
+                "key": "playButton"
+            },
+            {
+                "url": "assets/restartButton.png",
+                "type": "image",
+                "key": "restartButton"
+            },
+            {
+                "url": "assets/stopButton.png",
+                "type": "image",
+                "key": "stopButton"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

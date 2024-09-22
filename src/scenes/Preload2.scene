@@ -1,0 +1,476 @@
+{
+    "id": "74d46bb3-ea79-45bf-984e-6b928d8099c4",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Preload2",
+        "borderWidth": 1910,
+        "borderHeight": 1000
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "3208452d-3d4e-4e70-8ae0-538195b2b2f8",
+            "label": "underwater_fantasy_preview",
+            "texture": {
+                "key": "underwater-fantasy-preview"
+            },
+            "x": 958,
+            "y": 489
+        },
+        {
+            "type": "Rectangle",
+            "id": "0cb34df4-7740-4e0f-b2d2-6c49ce0e76c4",
+            "label": "progressBar",
+            "x": 472,
+            "y": 480,
+            "scaleX": 4,
+            "scaleY": 4,
+            "originX": 0,
+            "originY": 0,
+            "isFilled": true,
+            "fillColor": "#e0e0e0",
+            "width": 256,
+            "height": 20,
+            "list": [
+                {
+                    "prefabId": "ca949479-ab4d-45d5-b856-2cbecbd8d127",
+                    "id": "2764611e-1949-44d4-bbcc-a9df2cb9f860",
+                    "label": "preloadUpdater"
+                }
+            ]
+        },
+        {
+            "type": "Rectangle",
+            "id": "c24ec108-ecee-4cca-8951-2536ee1635a0",
+            "label": "progressBarBg",
+            "x": 472,
+            "y": 480,
+            "scaleX": 4,
+            "scaleY": 4,
+            "originX": 0,
+            "originY": 0,
+            "fillColor": "#e0e0e0",
+            "isStroked": true,
+            "width": 256,
+            "height": 20
+        },
+        {
+            "type": "Text",
+            "id": "e5e6cf4e-559a-4d02-be7c-4bbb3bf3e680",
+            "label": "loadingText",
+            "x": 456,
+            "y": 366,
+            "scaleX": 4,
+            "scaleY": 4,
+            "text": "Loading...",
+            "fontFamily": "arial",
+            "fontSize": "20px",
+            "color": "#e0e0e0"
+        },
+        {
+            "type": "Sprite",
+            "id": "29f90a09-6ac9-48be-839a-140bc90e501b",
+            "label": "crab",
+            "texture": {
+                "key": "crab1"
+            },
+            "x": 1590,
+            "y": 250,
+            "scaleX": 3.4594762345506886,
+            "scaleY": 3.4594762345506886,
+            "angle": 26,
+            "animationPlayMethod": 1,
+            "animationKey": "crabs"
+        },
+        {
+            "type": "Sprite",
+            "id": "698f3697-caf6-4331-9716-77e381aba3b0",
+            "label": "crab_1",
+            "texture": {
+                "key": "crab1"
+            },
+            "x": 1413,
+            "y": 114,
+            "scaleX": 3.4594762345506886,
+            "scaleY": 3.4594762345506886,
+            "angle": 26,
+            "animationPlayMethod": 1,
+            "animationKey": "crabs"
+        },
+        {
+            "type": "Sprite",
+            "id": "244d1bea-55a1-4523-b1cb-d433b5ba81d7",
+            "label": "crab_2",
+            "texture": {
+                "key": "crab1"
+            },
+            "x": 1246,
+            "y": 241,
+            "scaleX": 3.4594762345506886,
+            "scaleY": 3.4594762345506886,
+            "angle": -26,
+            "animationPlayMethod": 1,
+            "animationKey": "crabs"
+        },
+        {
+            "type": "Sprite",
+            "id": "04d9e709-cbec-4c81-8043-0a23719da3c3",
+            "label": "crab_3",
+            "texture": {
+                "key": "crab1"
+            },
+            "x": 1032,
+            "y": 120,
+            "scaleX": 3.4594762345506886,
+            "scaleY": 3.4594762345506886,
+            "angle": 26,
+            "animationPlayMethod": 1,
+            "animationKey": "crabs"
+        },
+        {
+            "type": "Sprite",
+            "id": "d6893652-4b3e-42d3-b9e0-9d6d1e897b36",
+            "label": "crab_4",
+            "texture": {
+                "key": "crab1"
+            },
+            "x": 814,
+            "y": 229,
+            "scaleX": 3.4594762345506886,
+            "scaleY": 3.4594762345506886,
+            "angle": 26,
+            "animationPlayMethod": 1,
+            "animationKey": "crabs"
+        },
+        {
+            "type": "Sprite",
+            "id": "d84293ae-61a4-4fa4-a732-1704221c15e6",
+            "label": "crab_5",
+            "texture": {
+                "key": "crab1"
+            },
+            "x": 593,
+            "y": 113,
+            "scaleX": 3.4594762345506886,
+            "scaleY": 3.4594762345506886,
+            "angle": -26,
+            "animationPlayMethod": 1,
+            "animationKey": "crabs"
+        },
+        {
+            "type": "Sprite",
+            "id": "3a839943-4936-4b8c-9b71-6e2a03c4444c",
+            "label": "crab_6",
+            "texture": {
+                "key": "crab1"
+            },
+            "x": 401,
+            "y": 237,
+            "scaleX": 3.4594762345506886,
+            "scaleY": 3.4594762345506886,
+            "angle": 26,
+            "animationPlayMethod": 1,
+            "animationKey": "crabs"
+        },
+        {
+            "type": "Sprite",
+            "id": "1fd70041-abbb-4b07-a0a4-e3af3e1d0c1c",
+            "label": "crab_7",
+            "texture": {
+                "key": "crab1"
+            },
+            "x": 210,
+            "y": 117,
+            "scaleX": 3.4594762345506886,
+            "scaleY": 3.4594762345506886,
+            "angle": 26,
+            "animationPlayMethod": 1,
+            "animationKey": "crabs"
+        },
+        {
+            "type": "Sprite",
+            "id": "86baffce-59af-47c8-b2ee-d7173c9a61d9",
+            "label": "crab_9",
+            "texture": {
+                "key": "crab1"
+            },
+            "x": 1725,
+            "y": 120,
+            "scaleX": 3.4594762345506886,
+            "scaleY": 3.4594762345506886,
+            "angle": -26,
+            "animationPlayMethod": 1,
+            "animationKey": "crabs"
+        },
+        {
+            "type": "Sprite",
+            "id": "960d2de6-704a-4eaa-b94e-2978b45bf074",
+            "label": "sharks_1",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 336,
+            "y": 903,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "flipX": true,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "ddd971e1-ad72-4703-b276-83f1a4e08591",
+            "label": "sharks_2",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 343,
+            "y": 804,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "7d803b65-041b-4015-9eb1-fb8c6f26bf16",
+            "label": "sharks_3",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 543,
+            "y": 893,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "895f7b51-f507-4b1c-9065-121b8a565605",
+            "label": "sharks_4",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 550,
+            "y": 794,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "flipX": true,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "98b00772-5f83-4ac1-bb2f-b8ccbe70447a",
+            "label": "sharks_5",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 136,
+            "y": 907,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "7a92c080-31e6-4f8d-9914-920831d26333",
+            "label": "sharks_6",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 143,
+            "y": 808,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "flipX": true,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "c6d47025-27eb-49dd-b889-f35b9eea059c",
+            "label": "sharks_7",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 1376,
+            "y": 907,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "flipX": true,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "a68c80fe-5575-4749-8b36-09e7067777b4",
+            "label": "sharks_8",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 1383,
+            "y": 808,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "4bfe9533-59e9-4369-a868-93f8eb69f091",
+            "label": "sharks_9",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 1590,
+            "y": 910,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "d580504e-1c2e-472e-8698-25bfbe91ce93",
+            "label": "sharks_10",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 1597,
+            "y": 811,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "flipX": true,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "08825b50-e625-4058-a828-c72c493828f9",
+            "label": "sharks_11",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 1787,
+            "y": 907,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "flipX": true,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "0cf3901d-47f1-4c56-9ad4-9a2eb1484e53",
+            "label": "sharks_12",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 1794,
+            "y": 808,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "84e7deca-0dde-4688-9741-209038c88d3c",
+            "label": "sharks",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 760,
+            "y": 898,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "flipX": true,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "7d6f600f-91db-4ea0-9470-e8e557419f91",
+            "label": "sharks_13",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 767,
+            "y": 799,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "34c57d29-437b-4edf-9849-65f58276d72d",
+            "label": "sharks_14",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 974,
+            "y": 901,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "b6ef45e8-a18b-4cff-860c-e5afb0b59613",
+            "label": "sharks_15",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 981,
+            "y": 802,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "flipX": true,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "171e7b88-a531-4538-886e-008e5b073af9",
+            "label": "sharks_16",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 1171,
+            "y": 898,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "flipX": true,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "fa88d4ec-44c9-4f0a-bfca-1135b7adb7c7",
+            "label": "sharks_17",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 1178,
+            "y": 799,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

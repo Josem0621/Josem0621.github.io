@@ -1,0 +1,357 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/acuamuteButton.png",
+                "type": "image",
+                "key": "acuamuteButton"
+            },
+            {
+                "url": "assets/acuarestartButton.png",
+                "type": "image",
+                "key": "acuarestartButton"
+            },
+            {
+                "url": "assets/acuarplayButton.png",
+                "type": "image",
+                "key": "acuarplayButton"
+            },
+            {
+                "url": "assets/acuarstopButton.png",
+                "type": "image",
+                "key": "acuarstopButton"
+            },
+            {
+                "url": "assets/acuasoundButton.png",
+                "type": "image",
+                "key": "acuasoundButton"
+            },
+            {
+                "url": [
+                    "assets/aguasound.mp3"
+                ],
+                "type": "audio",
+                "key": "aguasound"
+            },
+            {
+                "url": "assets/arena.png",
+                "type": "image",
+                "key": "arena"
+            },
+            {
+                "url": [
+                    "assets/caida.wav"
+                ],
+                "type": "audio",
+                "key": "caida"
+            },
+            {
+                "url": "assets/coco.png",
+                "type": "image",
+                "key": "coco"
+            },
+            {
+                "url": "assets/crab1.png",
+                "type": "image",
+                "key": "crab1"
+            },
+            {
+                "url": "assets/crab2.png",
+                "type": "image",
+                "key": "crab2"
+            },
+            {
+                "url": "assets/crab3.png",
+                "type": "image",
+                "key": "crab3"
+            },
+            {
+                "url": "assets/crab4.png",
+                "type": "image",
+                "key": "crab4"
+            },
+            {
+                "url": "assets/crab5.png",
+                "type": "image",
+                "key": "crab5"
+            },
+            {
+                "url": "assets/crab6.png",
+                "type": "image",
+                "key": "crab6"
+            },
+            {
+                "url": "assets/crab7.png",
+                "type": "image",
+                "key": "crab7"
+            },
+            {
+                "url": "assets/crabs.png",
+                "type": "image",
+                "key": "crabs"
+            },
+            {
+                "url": "assets/decoagua.png",
+                "type": "image",
+                "key": "decoagua"
+            },
+            {
+                "url": "assets/decomediana.png",
+                "type": "image",
+                "key": "decomediana"
+            },
+            {
+                "url": "assets/despausa.png",
+                "type": "image",
+                "key": "despausa"
+            },
+            {
+                "url": "assets/gato.png",
+                "type": "image",
+                "key": "gato"
+            },
+            {
+                "url": "assets/gato-frames.png",
+                "type": "image",
+                "key": "gato-frames"
+            },
+            {
+                "url": "assets/gem1.png",
+                "type": "image",
+                "key": "gem1"
+            },
+            {
+                "url": "assets/homeButton.png",
+                "type": "image",
+                "key": "homeButton"
+            },
+            {
+                "url": "assets/homeIcon.png",
+                "type": "image",
+                "key": "homeIcon"
+            },
+            {
+                "url": [
+                    "assets/items.wav"
+                ],
+                "type": "audio",
+                "key": "items"
+            },
+            {
+                "url": [
+                    "assets/jump.wav"
+                ],
+                "type": "audio",
+                "key": "jump"
+            },
+            {
+                "url": "assets/koala.png",
+                "type": "image",
+                "key": "koala"
+            },
+            {
+                "url": "assets/koala-frames.png",
+                "type": "image",
+                "key": "koala-frames"
+            },
+            {
+                "url": [
+                    "assets/menu_music.mp3"
+                ],
+                "type": "audio",
+                "key": "menu_music"
+            },
+            {
+                "url": "assets/moneda.png",
+                "type": "image",
+                "key": "moneda"
+            },
+            {
+                "url": "assets/moneda_1.png",
+                "type": "image",
+                "key": "moneda_1"
+            },
+            {
+                "url": "assets/moneda_2.png",
+                "type": "image",
+                "key": "moneda_2"
+            },
+            {
+                "url": "assets/moneda_3.png",
+                "type": "image",
+                "key": "moneda_3"
+            },
+            {
+                "url": "assets/moneda_4.png",
+                "type": "image",
+                "key": "moneda_4"
+            },
+            {
+                "url": "assets/moneda_5.png",
+                "type": "image",
+                "key": "moneda_5"
+            },
+            {
+                "url": "assets/moneda_6.png",
+                "type": "image",
+                "key": "moneda_6"
+            },
+            {
+                "url": "assets/moneda_7.png",
+                "type": "image",
+                "key": "moneda_7"
+            },
+            {
+                "url": "assets/moneda_8.png",
+                "type": "image",
+                "key": "moneda_8"
+            },
+            {
+                "url": "assets/monedas.json",
+                "type": "animation",
+                "key": "monedas"
+            },
+            {
+                "url": [
+                    "assets/music.mp3"
+                ],
+                "type": "audio",
+                "key": "music"
+            },
+            {
+                "url": "assets/musicButton.png",
+                "type": "image",
+                "key": "musicButton"
+            },
+            {
+                "url": "assets/mute.png",
+                "type": "image",
+                "key": "mute"
+            },
+            {
+                "url": "assets/muteButton.png",
+                "type": "image",
+                "key": "muteButton"
+            },
+            {
+                "url": [
+                    "assets/oversound.wav"
+                ],
+                "type": "audio",
+                "key": "oversound"
+            },
+            {
+                "url": "assets/panda.png",
+                "type": "image",
+                "key": "panda"
+            },
+            {
+                "url": "assets/panda-frames.png",
+                "type": "image",
+                "key": "panda-frames"
+            },
+            {
+                "url": "assets/pausa.png",
+                "type": "image",
+                "key": "pausa"
+            },
+            {
+                "url": "assets/plataforma_chica.png",
+                "type": "image",
+                "key": "plataforma_chica"
+            },
+            {
+                "url": "assets/plataforma_grande.png",
+                "type": "image",
+                "key": "plataforma_grande"
+            },
+            {
+                "url": "assets/plataforma_mediana.png",
+                "type": "image",
+                "key": "plataforma_mediana"
+            },
+            {
+                "url": "assets/platagua1.png",
+                "type": "image",
+                "key": "platagua1"
+            },
+            {
+                "url": "assets/platagua2.png",
+                "type": "image",
+                "key": "platagua2"
+            },
+            {
+                "url": "assets/playButton.png",
+                "type": "image",
+                "key": "playButton"
+            },
+            {
+                "url": "assets/restartButton.png",
+                "type": "image",
+                "key": "restartButton"
+            },
+            {
+                "url": "assets/roca.png",
+                "type": "image",
+                "key": "roca"
+            },
+            {
+                "url": "assets/sharks.png",
+                "type": "image",
+                "key": "sharks"
+            },
+            {
+                "url": "assets/sharks1.png",
+                "type": "image",
+                "key": "sharks1"
+            },
+            {
+                "url": "assets/sharks2.png",
+                "type": "image",
+                "key": "sharks2"
+            },
+            {
+                "url": "assets/sharks3.png",
+                "type": "image",
+                "key": "sharks3"
+            },
+            {
+                "url": "assets/sharks4.png",
+                "type": "image",
+                "key": "sharks4"
+            },
+            {
+                "url": "assets/sonidoicono.png",
+                "type": "image",
+                "key": "sonidoicono"
+            },
+            {
+                "url": "assets/stopButton.png",
+                "type": "image",
+                "key": "stopButton"
+            },
+            {
+                "url": "assets/Toro.png",
+                "type": "image",
+                "key": "Toro"
+            },
+            {
+                "url": "assets/Toro-frames.png",
+                "type": "image",
+                "key": "Toro-frames"
+            },
+            {
+                "url": "assets/underwater-fantasy-preview.png",
+                "type": "image",
+                "key": "underwater-fantasy-preview"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

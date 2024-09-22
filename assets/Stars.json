@@ -1,0 +1,45 @@
+{
+    "anims": [
+        {
+            "key": "stars",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "star",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "star2",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "star3",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "star4",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 5,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "yoyo": true,
+            "randomFrame": false
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    },
+    "settings": {
+        "sourceLang": "JAVA_SCRIPT",
+        "esModule": false,
+        "generateCode": false
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "anims": [
+        {
+            "key": "fuegos",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "fire1",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "fire2",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "fire3",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "fire4",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "fire5",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "fire6",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "fire8",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "fire9",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "fire10",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "fire11",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "fire12",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 5,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    },
+    "settings": {
+        "sourceLang": "JAVA_SCRIPT",
+        "esModule": false,
+        "generateCode": false
+    }
+}

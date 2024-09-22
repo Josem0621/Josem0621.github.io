@@ -1,0 +1,58 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/Gorila.json",
+                "type": "animation",
+                "key": "Gorila"
+            },
+            {
+                "url": "assets/gorila-1.png",
+                "type": "image",
+                "key": "gorila-1"
+            },
+            {
+                "url": "assets/gorila-2.png",
+                "type": "image",
+                "key": "gorila-2"
+            },
+            {
+                "url": "assets/gorila-3.png",
+                "type": "image",
+                "key": "gorila-3"
+            },
+            {
+                "url": "assets/gorila-4.png",
+                "type": "image",
+                "key": "gorila-4"
+            },
+            {
+                "url": "assets/gorila-5.png",
+                "type": "image",
+                "key": "gorila-5"
+            },
+            {
+                "url": "assets/gorilas.png",
+                "type": "image",
+                "key": "gorilas"
+            },
+            {
+                "url": "assets/deco2jungle.png",
+                "type": "image",
+                "key": "deco2jungle"
+            },
+            {
+                "url": "assets/Jungle.jpg",
+                "type": "image",
+                "key": "Jungle"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

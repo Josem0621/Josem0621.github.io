@@ -1,0 +1,442 @@
+{
+    "id": "52f3b370-351e-4d15-9deb-862c8a79764d",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Scene3",
+        "borderWidth": 1910,
+        "borderHeight": 1000
+    },
+    "displayList": [
+        {
+            "type": "Rectangle",
+            "id": "12275bed-a210-4689-a2ad-c12821ee73e3",
+            "label": "rectangle_1",
+            "x": 959,
+            "y": 1012,
+            "scaleX": 15.567311023327832,
+            "scaleY": 1.056881443818523,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Image",
+            "id": "09c07067-76d6-4be6-9b64-c37387008da9",
+            "label": "jungle",
+            "texture": {
+                "key": "Jungle"
+            },
+            "x": 956,
+            "y": 505,
+            "scaleX": 1.9015157955835653,
+            "scaleY": 1.5812700422016133
+        },
+        {
+            "type": "Image",
+            "id": "44cd213b-a4f8-4ef9-930a-88a651cc28cb",
+            "label": "part1plat6_jungle",
+            "texture": {
+                "key": "part1plat6_jungle"
+            },
+            "x": 226,
+            "y": 667,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 156,
+            "body.height": 79
+        },
+        {
+            "type": "Image",
+            "id": "4c36bbb9-4e77-47d9-94be-0e6fa42f2e0a",
+            "label": "deco2jungle",
+            "texture": {
+                "key": "deco2jungle"
+            },
+            "x": 227,
+            "y": 614
+        },
+        {
+            "type": "Image",
+            "id": "e2b68d46-aa87-4e62-af55-bb1384ed1e63",
+            "label": "part1plat4_jungle",
+            "texture": {
+                "key": "part1plat4_jungle"
+            },
+            "x": 615,
+            "y": 741,
+            "scaleX": 1.5,
+            "scaleY": 1.5,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 200,
+            "body.height": 80
+        },
+        {
+            "type": "Image",
+            "id": "d4a1b1f0-4f85-4741-8b3b-63d7894ad55d",
+            "label": "deco3plat4",
+            "texture": {
+                "key": "deco3plat4"
+            },
+            "x": 606,
+            "y": 679,
+            "scaleX": 1.5,
+            "scaleY": 1.5
+        },
+        {
+            "type": "Image",
+            "id": "f439d437-1d08-4067-b65a-45bfb2d464a6",
+            "label": "part1plat1_jungle",
+            "texture": {
+                "key": "part1plat1_jungle"
+            },
+            "x": 996,
+            "y": 554,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 148,
+            "body.height": 88
+        },
+        {
+            "type": "Image",
+            "id": "9cbcdb2b-b9a0-4ba0-aa48-0b327a6c4e44",
+            "label": "deco4plat1",
+            "texture": {
+                "key": "deco4plat1"
+            },
+            "x": 986,
+            "y": 502
+        },
+        {
+            "type": "Image",
+            "id": "50a11653-fbd7-45fb-a1b5-e0dd3380a9c5",
+            "label": "part1plat6_jungle_1",
+            "texture": {
+                "key": "part1plat6_jungle"
+            },
+            "x": 1353,
+            "y": 687,
+            "scaleX": 0.7,
+            "scaleY": 0.7,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 110,
+            "body.height": 50
+        },
+        {
+            "type": "Image",
+            "id": "12da4b26-0e03-4000-a193-f749228fd29f",
+            "label": "deco2jungle_1",
+            "texture": {
+                "key": "deco2jungle"
+            },
+            "x": 1352,
+            "y": 650,
+            "scaleX": 0.7,
+            "scaleY": 0.7
+        },
+        {
+            "type": "Image",
+            "id": "088d884c-a41c-4211-be02-4df12e1bb9fd",
+            "label": "part1plat5_jungle",
+            "texture": {
+                "key": "part1plat5_jungle"
+            },
+            "x": 1699,
+            "y": 785,
+            "scaleX": 0.7,
+            "scaleY": 0.7,
+            "ArcadeComponent.active": true,
+            "allowGravity": false,
+            "pushable": false,
+            "body.width": 334,
+            "body.height": 148
+        },
+        {
+            "type": "Image",
+            "id": "c7a140b5-d903-4a6b-a994-7aed48c3df42",
+            "label": "deco5plat5",
+            "texture": {
+                "key": "deco5plat5"
+            },
+            "x": 1705,
+            "y": 721,
+            "scaleX": 0.7,
+            "scaleY": 0.7
+        },
+        {
+            "type": "Image",
+            "id": "32096d9d-4620-4d52-aa47-b06b7066846c",
+            "label": "part1plat3_jungle",
+            "texture": {
+                "key": "part1plat3_jungle"
+            },
+            "x": 1493,
+            "y": 316,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 258,
+            "body.height": 111
+        },
+        {
+            "type": "Image",
+            "id": "4227b81b-ee6a-4355-91da-a301d3a1ffde",
+            "label": "deco6plat3",
+            "texture": {
+                "key": "deco6plat3"
+            },
+            "x": 1541,
+            "y": 230
+        },
+        {
+            "type": "Image",
+            "id": "51a3fe9d-a8df-4f7d-a0a0-3664512d32e2",
+            "label": "part1plat6_jungle_2",
+            "texture": {
+                "key": "part1plat6_jungle"
+            },
+            "x": 976,
+            "y": 196,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 156,
+            "body.height": 79
+        },
+        {
+            "type": "Image",
+            "id": "4285e6bb-54da-4815-8824-c6a797bd8b0e",
+            "label": "deco2jungle_2",
+            "texture": {
+                "key": "deco2jungle"
+            },
+            "x": 975,
+            "y": 144
+        },
+        {
+            "type": "Image",
+            "id": "1d8d2caa-c97d-4c3b-8a5c-704448a13164",
+            "label": "part1plat2_jungle",
+            "texture": {
+                "key": "part1plat2_jungle"
+            },
+            "x": 312,
+            "y": 285,
+            "ArcadeComponent.active": true,
+            "allowGravity": false,
+            "pushable": false,
+            "body.width": 305,
+            "body.height": 95
+        },
+        {
+            "type": "Image",
+            "id": "12437b7f-1292-410d-92eb-bb1a4281d0f0",
+            "label": "decojungle",
+            "texture": {
+                "key": "decojungle"
+            },
+            "x": 314,
+            "y": 213
+        },
+        {
+            "type": "Image",
+            "id": "7b582f74-9f10-4c4b-830a-407760ad81f7",
+            "label": "moneda",
+            "texture": {
+                "key": "moneda"
+            },
+            "x": 226,
+            "y": 502,
+            "ArcadeComponent.active": true,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27
+        },
+        {
+            "type": "Image",
+            "id": "339f3743-f550-49d7-a50d-5be5225a86f6",
+            "label": "moneda_1",
+            "texture": {
+                "key": "moneda"
+            },
+            "x": 940,
+            "y": 380,
+            "ArcadeComponent.active": true,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27
+        },
+        {
+            "type": "Image",
+            "id": "8ccf8efd-1d3c-48ea-9547-d1b3e797f332",
+            "label": "moneda_2",
+            "texture": {
+                "key": "moneda"
+            },
+            "x": 1352,
+            "y": 536,
+            "ArcadeComponent.active": true,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27
+        },
+        {
+            "type": "Image",
+            "id": "01ed8373-e69a-4fec-b2f3-312d1fdcd155",
+            "label": "moneda_3",
+            "texture": {
+                "key": "moneda"
+            },
+            "x": 1386,
+            "y": 146,
+            "ArcadeComponent.active": true,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27
+        },
+        {
+            "type": "Image",
+            "id": "0fe56679-6eb3-46f3-9bbb-7f1702e691a0",
+            "label": "moneda_4",
+            "texture": {
+                "key": "moneda"
+            },
+            "x": 195,
+            "y": 114,
+            "ArcadeComponent.active": true,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27
+        },
+        {
+            "type": "Image",
+            "id": "e694236f-a53e-4761-9273-0d787e0d9130",
+            "label": "gem1",
+            "texture": {
+                "key": "gem1"
+            },
+            "x": 326,
+            "y": 106,
+            "ArcadeComponent.active": true,
+            "body.bounce.y": 0.5,
+            "body.width": 20,
+            "body.height": 16
+        },
+        {
+            "type": "Image",
+            "id": "ca93c562-daf8-4601-ba61-5960701f3841",
+            "label": "gem",
+            "texture": {
+                "key": "gem1"
+            },
+            "x": 1497,
+            "y": 134,
+            "ArcadeComponent.active": true,
+            "body.bounce.y": 0.5,
+            "body.width": 20,
+            "body.height": 16
+        },
+        {
+            "type": "Image",
+            "id": "9a91db3f-49c3-4074-8aad-82b445dc2242",
+            "label": "gorila_0",
+            "texture": {
+                "key": "gorila-0"
+            },
+            "x": 204,
+            "y": 189,
+            "ArcadeComponent.active": true,
+            "body.width": 74,
+            "body.height": 78
+        },
+        {
+            "type": "Image",
+            "id": "b19aaa85-5e6c-476c-acfb-f816121bb070",
+            "label": "gorila",
+            "texture": {
+                "key": "gorila-0"
+            },
+            "x": 1578,
+            "y": 210,
+            "flipX": true,
+            "ArcadeComponent.active": true,
+            "body.width": 74,
+            "body.height": 78
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "0254bd9b-189c-47d8-8dc9-56dbb5fe5ff4",
+            "type": "Collider",
+            "label": "collider",
+            "scope": "LOCAL",
+            "object1": "plataformas",
+            "object2": "monedas"
+        },
+        {
+            "id": "02594aee-e8f6-437a-86e1-9f5ab50cf07e",
+            "type": "Collider",
+            "label": "collider_1",
+            "scope": "LOCAL",
+            "object1": "plataformas",
+            "object2": "gemas"
+        },
+        {
+            "id": "ae4f6d76-e557-4f77-b284-93d58b10557c",
+            "type": "Collider",
+            "label": "collider_2",
+            "scope": "LOCAL",
+            "object1": "plataformas",
+            "object2": "gorilas"
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "f03ae5c9-223f-4ee9-b05c-06d6e250bf22",
+            "label": "plataformas",
+            "objectIds": [
+                "44cd213b-a4f8-4ef9-930a-88a651cc28cb",
+                "e2b68d46-aa87-4e62-af55-bb1384ed1e63",
+                "f439d437-1d08-4067-b65a-45bfb2d464a6",
+                "50a11653-fbd7-45fb-a1b5-e0dd3380a9c5",
+                "088d884c-a41c-4211-be02-4df12e1bb9fd",
+                "32096d9d-4620-4d52-aa47-b06b7066846c",
+                "51a3fe9d-a8df-4f7d-a0a0-3664512d32e2",
+                "1d8d2caa-c97d-4c3b-8a5c-704448a13164"
+            ]
+        },
+        {
+            "id": "23c1b2b2-2899-46d4-bcd4-fded540911b2",
+            "label": "monedas",
+            "objectIds": [
+                "7b582f74-9f10-4c4b-830a-407760ad81f7",
+                "0fe56679-6eb3-46f3-9bbb-7f1702e691a0",
+                "01ed8373-e69a-4fec-b2f3-312d1fdcd155",
+                "8ccf8efd-1d3c-48ea-9547-d1b3e797f332",
+                "339f3743-f550-49d7-a50d-5be5225a86f6"
+            ]
+        },
+        {
+            "id": "a0506fb6-cfb3-45f4-ab06-09a7cf4212a3",
+            "label": "gemas",
+            "objectIds": [
+                "e694236f-a53e-4761-9273-0d787e0d9130",
+                "ca93c562-daf8-4601-ba61-5960701f3841"
+            ]
+        },
+        {
+            "id": "59eee3f4-ad5f-4e6a-a6f3-b1fa45b765d4",
+            "label": "gorilas",
+            "objectIds": [
+                "9a91db3f-49c3-4074-8aad-82b445dc2242",
+                "b19aaa85-5e6c-476c-acfb-f816121bb070"
+            ]
+        }
+    ]
+}

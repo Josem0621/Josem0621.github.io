@@ -1,0 +1,871 @@
+{
+    "id": "b47e7e92-cc11-4df4-ac01-bf669de29ace",
+    "sceneType": "SCENE",
+    "settings": {
+        "snapWidth": 1,
+        "snapHeight": 1,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Scene2",
+        "borderWidth": 1910,
+        "borderHeight": 1000
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "819f1368-1afb-4ec2-a5fa-6e73b82c31ff",
+            "label": "underwater_fantasy_preview",
+            "texture": {
+                "key": "underwater-fantasy-preview"
+            },
+            "x": 952,
+            "y": 494
+        },
+        {
+            "type": "Image",
+            "id": "4d834632-8ca8-402a-a35a-3952fd3a9ebc",
+            "label": "plataforma_grande",
+            "texture": {
+                "key": "plataforma_grande"
+            },
+            "x": 489,
+            "y": 759,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 356,
+            "body.height": 67
+        },
+        {
+            "type": "Image",
+            "id": "5cad7209-e974-40ba-b86c-8ecf1bd9c0cf",
+            "label": "plataforma_chica",
+            "texture": {
+                "key": "plataforma_chica"
+            },
+            "x": 821,
+            "y": 803,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 36,
+            "body.height": 35
+        },
+        {
+            "type": "Image",
+            "id": "d13e5261-da6d-4603-9772-a27a61db6c08",
+            "label": "plataforma_chica_1",
+            "texture": {
+                "key": "plataforma_chica"
+            },
+            "x": 993,
+            "y": 713,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 36,
+            "body.height": 35
+        },
+        {
+            "type": "Image",
+            "id": "e6a8865e-1b95-4fe0-b898-389ab54ae7b9",
+            "label": "plataforma_chica_2",
+            "texture": {
+                "key": "plataforma_chica"
+            },
+            "x": 1158,
+            "y": 817,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 36,
+            "body.height": 35
+        },
+        {
+            "type": "Image",
+            "id": "41c3c123-33fd-46dc-bbff-96ba308d3ca3",
+            "label": "plataforma_mediana",
+            "texture": {
+                "key": "plataforma_mediana"
+            },
+            "x": 1382,
+            "y": 779,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 108,
+            "body.height": 35
+        },
+        {
+            "type": "Image",
+            "id": "0cdb12e8-0e77-4149-ab45-abb69b0a5ff4",
+            "label": "plataforma_chica_3",
+            "texture": {
+                "key": "plataforma_chica"
+            },
+            "x": 1563,
+            "y": 692,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 36,
+            "body.height": 35
+        },
+        {
+            "type": "Image",
+            "id": "fcfa9114-d10f-4e96-84ee-0b58dbeb9f79",
+            "label": "plataforma_grande_1",
+            "texture": {
+                "key": "plataforma_grande"
+            },
+            "x": 1860,
+            "y": 538,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 356,
+            "body.height": 67
+        },
+        {
+            "type": "Image",
+            "id": "625e1f2f-2463-487e-a15a-0aa57d6725c0",
+            "label": "plataforma_chica_4",
+            "texture": {
+                "key": "plataforma_chica"
+            },
+            "x": 1894,
+            "y": 404,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 36,
+            "body.height": 35
+        },
+        {
+            "type": "Image",
+            "id": "374330ed-dbde-470b-a0a3-76d10c2ab8bd",
+            "label": "plataforma_chica_5",
+            "texture": {
+                "key": "plataforma_chica"
+            },
+            "x": 1823,
+            "y": 267,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 36,
+            "body.height": 35
+        },
+        {
+            "type": "Image",
+            "id": "fa91eb53-51e4-43a0-af8d-564067f90b40",
+            "label": "platagua1",
+            "texture": {
+                "key": "platagua1"
+            },
+            "x": 1522,
+            "y": 312,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 216,
+            "body.height": 108
+        },
+        {
+            "type": "Image",
+            "id": "769980d4-e332-4f7b-8f43-fde498e2810f",
+            "label": "platagua2",
+            "texture": {
+                "key": "platagua2"
+            },
+            "x": 1520,
+            "y": 240,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 144,
+            "body.height": 36
+        },
+        {
+            "type": "Image",
+            "id": "cfc611a9-a311-44ce-9cfc-b3b36b4123ec",
+            "label": "plataforma_mediana_1",
+            "texture": {
+                "key": "plataforma_mediana"
+            },
+            "x": 1228,
+            "y": 479,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 108,
+            "body.height": 35
+        },
+        {
+            "type": "Image",
+            "id": "3c02d5f1-f45c-497e-91da-6db9b44fa0a5",
+            "label": "plataforma_chica_6",
+            "texture": {
+                "key": "plataforma_chica"
+            },
+            "x": 1222,
+            "y": 208,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 36,
+            "body.height": 35
+        },
+        {
+            "type": "Image",
+            "id": "be0c277d-9ae0-480a-b2a0-f481bf5a86c7",
+            "label": "plataforma_chica_7",
+            "texture": {
+                "key": "plataforma_chica"
+            },
+            "x": 1025,
+            "y": 240,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 36,
+            "body.height": 35
+        },
+        {
+            "type": "Image",
+            "id": "e9164990-038a-4552-a2db-61ea0c834c59",
+            "label": "plataforma_chica_8",
+            "texture": {
+                "key": "plataforma_chica"
+            },
+            "x": 796,
+            "y": 169,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 36,
+            "body.height": 35
+        },
+        {
+            "type": "Image",
+            "id": "38deb874-4454-4a9d-9610-eda4634528e0",
+            "label": "plataforma_mediana_2",
+            "texture": {
+                "key": "plataforma_mediana"
+            },
+            "x": 546,
+            "y": 230,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 108,
+            "body.height": 35
+        },
+        {
+            "type": "Image",
+            "id": "a8379473-1f50-46ba-ba07-cdf826a9c77f",
+            "label": "plataforma_chica_9",
+            "texture": {
+                "key": "plataforma_chica"
+            },
+            "x": 784,
+            "y": 423,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 36,
+            "body.height": 35
+        },
+        {
+            "type": "Image",
+            "id": "472508b6-310c-4e84-a412-2d5adb719728",
+            "label": "plataforma_grande_2",
+            "texture": {
+                "key": "plataforma_grande"
+            },
+            "x": 110,
+            "y": 396,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 356,
+            "body.height": 67
+        },
+        {
+            "type": "Sprite",
+            "id": "a053dfdb-32f9-481f-a994-2c3315897a94",
+            "label": "sharks",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 1854,
+            "y": 592,
+            "ArcadeComponent.active": true,
+            "body.velocity.x": -100,
+            "allowGravity": false,
+            "collideWorldBounds": true,
+            "body.width": 72,
+            "body.height": 41,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "7a714276-1f0b-4848-b171-7f0b2a22223b",
+            "label": "sharks_1",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 1852,
+            "y": 60,
+            "ArcadeComponent.active": true,
+            "body.velocity.x": -100,
+            "allowGravity": false,
+            "collideWorldBounds": true,
+            "body.width": 72,
+            "body.height": 41,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "965a7fa2-f62d-419b-9036-5c240d1bdb21",
+            "label": "sharks_2",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 37,
+            "y": 644,
+            "flipX": true,
+            "ArcadeComponent.active": true,
+            "body.velocity.x": 100,
+            "allowGravity": false,
+            "collideWorldBounds": true,
+            "body.width": 72,
+            "body.height": 41,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "45211308-7b96-4f85-b856-2e69088cfecf",
+            "label": "sharks_3",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 41,
+            "y": 123,
+            "flipX": true,
+            "ArcadeComponent.active": true,
+            "body.velocity.x": 100,
+            "allowGravity": false,
+            "collideWorldBounds": true,
+            "body.width": 72,
+            "body.height": 41,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "984872fe-447f-477f-8f65-b9d825d66866",
+            "label": "sharks_4",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 1352,
+            "y": 366,
+            "ArcadeComponent.active": true,
+            "body.velocity.x": -100,
+            "allowGravity": false,
+            "collideWorldBounds": true,
+            "onWorldBounds": true,
+            "body.width": 72,
+            "body.height": 41,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Rectangle",
+            "id": "f3942457-807b-4fa3-88c4-67dd628579b4",
+            "label": "rectangle_1",
+            "x": 879,
+            "y": 987,
+            "scaleX": 17.0349067845004,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 128,
+            "body.height": 128,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Image",
+            "id": "1385fb30-1ff8-46c0-9132-8f4dfb7be4ef",
+            "label": "gem1",
+            "texture": {
+                "key": "gem1"
+            },
+            "x": 786,
+            "y": 329,
+            "ArcadeComponent.active": true,
+            "body.bounce.y": 0.5,
+            "body.width": 20,
+            "body.height": 16
+        },
+        {
+            "type": "Image",
+            "id": "d3cf6342-8f50-40ee-9309-82aa4d7d290c",
+            "label": "gem",
+            "texture": {
+                "key": "gem1"
+            },
+            "x": 1226,
+            "y": 376,
+            "ArcadeComponent.active": true,
+            "body.bounce.y": 0.5,
+            "body.width": 20,
+            "body.height": 16
+        },
+        {
+            "type": "Image",
+            "id": "cc72c38f-70f8-4293-ab05-eb9d51b3ac81",
+            "label": "decomediana",
+            "texture": {
+                "key": "decomediana"
+            },
+            "x": 1415,
+            "y": 737
+        },
+        {
+            "type": "Image",
+            "id": "1f10b09c-f594-4c0f-83d8-96bbc00724d6",
+            "label": "decomediana_1",
+            "texture": {
+                "key": "decomediana"
+            },
+            "x": 1262,
+            "y": 437
+        },
+        {
+            "type": "Image",
+            "id": "19b97291-560c-4820-b574-1244d382647f",
+            "label": "decomediana_2",
+            "texture": {
+                "key": "decomediana"
+            },
+            "x": 581,
+            "y": 189
+        },
+        {
+            "type": "Image",
+            "id": "0faffe9b-be3a-4b40-a970-7d952a4794fa",
+            "label": "decoagua",
+            "texture": {
+                "key": "decoagua"
+            },
+            "x": 1518,
+            "y": 215
+        },
+        {
+            "type": "Image",
+            "id": "ceb14ecf-b937-4d8b-a359-66a561242c61",
+            "label": "decoagua_1",
+            "texture": {
+                "key": "decoagua"
+            },
+            "x": 376,
+            "y": 718
+        },
+        {
+            "type": "Image",
+            "id": "bf512e1a-e691-46ef-bfb8-7d5e03f8310a",
+            "label": "decoagua_2",
+            "texture": {
+                "key": "decoagua"
+            },
+            "x": 591,
+            "y": 719,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "55161ebd-5407-4267-b27e-432cebd53cae",
+            "label": "decoagua_3",
+            "texture": {
+                "key": "decoagua"
+            },
+            "x": 470,
+            "y": 718,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "9308d1f4-41b9-46a5-85e6-675d500650b8",
+            "label": "decoagua_4",
+            "texture": {
+                "key": "decoagua"
+            },
+            "x": 45,
+            "y": 355
+        },
+        {
+            "type": "Image",
+            "id": "7a79558b-ff1f-498d-bc01-a39b11181b7a",
+            "label": "decoagua_5",
+            "texture": {
+                "key": "decoagua"
+            },
+            "x": 1749,
+            "y": 498
+        },
+        {
+            "type": "Image",
+            "id": "9ff7debc-fd6b-4569-8384-181c6ba90770",
+            "label": "decoagua_6",
+            "texture": {
+                "key": "decoagua"
+            },
+            "x": 1888,
+            "y": 498
+        },
+        {
+            "type": "Sprite",
+            "id": "95f9a183-3d6b-443d-9677-3d44c480c1b5",
+            "label": "crabs",
+            "texture": {
+                "key": "crabs"
+            },
+            "x": 1884,
+            "y": 491,
+            "ArcadeComponent.active": true,
+            "body.velocity.x": 50,
+            "allowGravity": false,
+            "collideWorldBounds": true,
+            "body.width": 44,
+            "body.height": 26,
+            "animationPlayMethod": 1,
+            "animationKey": "crabs"
+        },
+        {
+            "type": "Sprite",
+            "id": "09c67487-2fe9-46e3-853f-920ccb75f71c",
+            "label": "crabs_1",
+            "texture": {
+                "key": "crabs"
+            },
+            "x": 631,
+            "y": 712,
+            "ArcadeComponent.active": true,
+            "body.velocity.x": 50,
+            "allowGravity": false,
+            "collideWorldBounds": true,
+            "body.width": 44,
+            "body.height": 26,
+            "animationPlayMethod": 1,
+            "animationKey": "crabs"
+        },
+        {
+            "type": "Sprite",
+            "id": "354bd31f-f7f0-4d6d-9225-279f152e981b",
+            "label": "moneda",
+            "texture": {
+                "key": "moneda"
+            },
+            "x": 356,
+            "y": 602,
+            "ArcadeComponent.active": true,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27,
+            "animationPlayMethod": 1,
+            "animationKey": "monedas"
+        },
+        {
+            "type": "Sprite",
+            "id": "44e0d07f-5137-4070-ba44-1cb97b2efde2",
+            "label": "moneda1",
+            "texture": {
+                "key": "moneda"
+            },
+            "x": 438,
+            "y": 602,
+            "ArcadeComponent.active": true,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27,
+            "animationPlayMethod": 1,
+            "animationKey": "monedas"
+        },
+        {
+            "type": "Sprite",
+            "id": "9c43179b-6616-4221-aae8-52ea7e5c8235",
+            "label": "moneda2",
+            "texture": {
+                "key": "moneda"
+            },
+            "x": 523,
+            "y": 602,
+            "ArcadeComponent.active": true,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27,
+            "animationPlayMethod": 1,
+            "animationKey": "monedas"
+        },
+        {
+            "type": "Sprite",
+            "id": "37fd28ed-9415-49fb-babc-94da5a07aba1",
+            "label": "moneda3",
+            "texture": {
+                "key": "moneda"
+            },
+            "x": 614,
+            "y": 602,
+            "ArcadeComponent.active": true,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27,
+            "animationPlayMethod": 1,
+            "animationKey": "monedas"
+        },
+        {
+            "type": "Sprite",
+            "id": "31f69097-af43-47ff-965f-daa628ec18ab",
+            "label": "moneda4",
+            "texture": {
+                "key": "moneda"
+            },
+            "x": 992,
+            "y": 593,
+            "ArcadeComponent.active": true,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27,
+            "animationPlayMethod": 1,
+            "animationKey": "monedas"
+        },
+        {
+            "type": "Sprite",
+            "id": "e33816ca-b7d8-44a3-8de4-a0111754d096",
+            "label": "moneda5",
+            "texture": {
+                "key": "moneda"
+            },
+            "x": 1340,
+            "y": 667,
+            "ArcadeComponent.active": true,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27,
+            "animationPlayMethod": 1,
+            "animationKey": "monedas"
+        },
+        {
+            "type": "Sprite",
+            "id": "c07358c1-e60e-4ff1-9d37-aee5f0e5f15a",
+            "label": "moneda6",
+            "texture": {
+                "key": "moneda"
+            },
+            "x": 1413,
+            "y": 667,
+            "ArcadeComponent.active": true,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27,
+            "animationPlayMethod": 1,
+            "animationKey": "monedas"
+        },
+        {
+            "type": "Sprite",
+            "id": "dfc03d98-118b-4356-aabf-b8f44c4028c1",
+            "label": "moneda7",
+            "texture": {
+                "key": "moneda"
+            },
+            "x": 1724,
+            "y": 381,
+            "ArcadeComponent.active": true,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27,
+            "animationPlayMethod": 1,
+            "animationKey": "monedas"
+        },
+        {
+            "type": "Sprite",
+            "id": "5af72d1f-18ba-45fa-b5a7-b9cc65ca2fbb",
+            "label": "moneda8",
+            "texture": {
+                "key": "moneda"
+            },
+            "x": 1826,
+            "y": 381,
+            "ArcadeComponent.active": true,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27,
+            "animationPlayMethod": 1,
+            "animationKey": "monedas"
+        },
+        {
+            "type": "Sprite",
+            "id": "5f1837cf-370b-44d0-9fa8-5675b6aff75b",
+            "label": "moneda9",
+            "texture": {
+                "key": "moneda"
+            },
+            "x": 1479,
+            "y": 110,
+            "ArcadeComponent.active": true,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27,
+            "animationPlayMethod": 1,
+            "animationKey": "monedas"
+        },
+        {
+            "type": "Sprite",
+            "id": "fe49c91e-5ef7-4ecc-857c-efce33851683",
+            "label": "moneda10",
+            "texture": {
+                "key": "moneda"
+            },
+            "x": 1562,
+            "y": 110,
+            "ArcadeComponent.active": true,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27,
+            "animationPlayMethod": 1,
+            "animationKey": "monedas"
+        },
+        {
+            "type": "Sprite",
+            "id": "a9dbd0a2-1deb-4f85-bc6f-9616e79a3e11",
+            "label": "moneda11",
+            "texture": {
+                "key": "moneda"
+            },
+            "x": 1024,
+            "y": 127,
+            "ArcadeComponent.active": true,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27,
+            "animationPlayMethod": 1,
+            "animationKey": "monedas"
+        },
+        {
+            "type": "Sprite",
+            "id": "f32cd1ce-7f00-4475-b5d3-e2aac03266f1",
+            "label": "moneda12",
+            "texture": {
+                "key": "moneda"
+            },
+            "x": 538,
+            "y": 79,
+            "ArcadeComponent.active": true,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27,
+            "animationPlayMethod": 1,
+            "animationKey": "monedas"
+        },
+        {
+            "type": "Sprite",
+            "id": "888dbf84-df66-4e35-a58b-5c1a7752a9c2",
+            "label": "moneda13",
+            "texture": {
+                "key": "moneda"
+            },
+            "x": 55,
+            "y": 254,
+            "ArcadeComponent.active": true,
+            "body.bounce.y": 0.5,
+            "body.width": 27,
+            "body.height": 27,
+            "animationPlayMethod": 1,
+            "animationKey": "monedas"
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "ae405f1a-7441-4616-a618-a19cb4d80fe9",
+            "type": "Collider",
+            "label": "collider",
+            "scope": "LOCAL",
+            "object1": "plataformas",
+            "object2": "monedas"
+        },
+        {
+            "id": "6c8c9cd5-c073-45e6-8eea-a99ddb1c687c",
+            "type": "Collider",
+            "label": "collider_1",
+            "scope": "LOCAL",
+            "object1": "plataformas",
+            "object2": "gemas"
+        },
+        {
+            "id": "5603c5d2-bda6-4fd2-b36b-df401792bb51",
+            "type": "Collider",
+            "label": "collider_2",
+            "scope": "LOCAL",
+            "object1": "plataformas",
+            "object2": "tiburon"
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "lists": [
+        {
+            "id": "672f26f3-e5bb-4b57-92a7-481660189cb3",
+            "label": "plataformas",
+            "objectIds": [
+                "4d834632-8ca8-402a-a35a-3952fd3a9ebc",
+                "472508b6-310c-4e84-a412-2d5adb719728",
+                "a8379473-1f50-46ba-ba07-cdf826a9c77f",
+                "38deb874-4454-4a9d-9610-eda4634528e0",
+                "e9164990-038a-4552-a2db-61ea0c834c59",
+                "be0c277d-9ae0-480a-b2a0-f481bf5a86c7",
+                "3c02d5f1-f45c-497e-91da-6db9b44fa0a5",
+                "cfc611a9-a311-44ce-9cfc-b3b36b4123ec",
+                "769980d4-e332-4f7b-8f43-fde498e2810f",
+                "fa91eb53-51e4-43a0-af8d-564067f90b40",
+                "374330ed-dbde-470b-a0a3-76d10c2ab8bd",
+                "625e1f2f-2463-487e-a15a-0aa57d6725c0",
+                "fcfa9114-d10f-4e96-84ee-0b58dbeb9f79",
+                "0cdb12e8-0e77-4149-ab45-abb69b0a5ff4",
+                "41c3c123-33fd-46dc-bbff-96ba308d3ca3",
+                "e6a8865e-1b95-4fe0-b898-389ab54ae7b9",
+                "d13e5261-da6d-4603-9772-a27a61db6c08",
+                "5cad7209-e974-40ba-b86c-8ecf1bd9c0cf"
+            ]
+        },
+        {
+            "id": "621ca597-56ce-4c11-86ff-4118052a4f2e",
+            "label": "tiburon",
+            "objectIds": [
+                "a053dfdb-32f9-481f-a994-2c3315897a94",
+                "984872fe-447f-477f-8f65-b9d825d66866",
+                "45211308-7b96-4f85-b856-2e69088cfecf",
+                "965a7fa2-f62d-419b-9036-5c240d1bdb21",
+                "7a714276-1f0b-4848-b171-7f0b2a22223b"
+            ]
+        },
+        {
+            "id": "6c0b9b58-16ea-49c1-8b6b-dd28b73a6837",
+            "label": "monedas",
+            "objectIds": [
+                "354bd31f-f7f0-4d6d-9225-279f152e981b",
+                "888dbf84-df66-4e35-a58b-5c1a7752a9c2",
+                "f32cd1ce-7f00-4475-b5d3-e2aac03266f1",
+                "a9dbd0a2-1deb-4f85-bc6f-9616e79a3e11",
+                "fe49c91e-5ef7-4ecc-857c-efce33851683",
+                "5f1837cf-370b-44d0-9fa8-5675b6aff75b",
+                "5af72d1f-18ba-45fa-b5a7-b9cc65ca2fbb",
+                "dfc03d98-118b-4356-aabf-b8f44c4028c1",
+                "c07358c1-e60e-4ff1-9d37-aee5f0e5f15a",
+                "e33816ca-b7d8-44a3-8de4-a0111754d096",
+                "31f69097-af43-47ff-965f-daa628ec18ab",
+                "37fd28ed-9415-49fb-babc-94da5a07aba1",
+                "9c43179b-6616-4221-aae8-52ea7e5c8235",
+                "44e0d07f-5137-4070-ba44-1cb97b2efde2"
+            ]
+        },
+        {
+            "id": "cfcf5679-5bc0-451c-8173-13d87f6c79d5",
+            "label": "gemas",
+            "objectIds": [
+                "1385fb30-1ff8-46c0-9132-8f4dfb7be4ef",
+                "d3cf6342-8f50-40ee-9309-82aa4d7d290c"
+            ]
+        }
+    ]
+}

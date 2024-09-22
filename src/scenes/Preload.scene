@@ -1,0 +1,469 @@
+{
+    "id": "04331fb6-ed91-4d74-b6e9-4bfe0fcfb457",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadMethodName": "editorPreload",
+        "preloadPackFiles": [
+            "starter-template-basic-typescript/assets/asset-pack.json"
+        ],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Preload",
+        "borderWidth": 1910,
+        "borderHeight": 1000
+    },
+    "displayList": [
+        {
+            "type": "Rectangle",
+            "id": "845d4ca6-7417-44fc-97e3-a3bb2fbbdd03",
+            "label": "progressBar",
+            "x": 479,
+            "y": 497,
+            "scaleX": 4,
+            "scaleY": 4,
+            "originX": 0,
+            "originY": 0,
+            "isFilled": true,
+            "fillColor": "#e0e0e0",
+            "width": 256,
+            "height": 20,
+            "list": [
+                {
+                    "prefabId": "ca949479-ab4d-45d5-b856-2cbecbd8d127",
+                    "id": "250eaa8f-b143-4e41-9ddf-052dfd99672c",
+                    "label": "preloadUpdater"
+                }
+            ]
+        },
+        {
+            "type": "Rectangle",
+            "id": "10e175a4-81b6-449e-9561-6d8ba54d3812",
+            "label": "progressBarBg",
+            "x": 479,
+            "y": 497,
+            "scaleX": 4,
+            "scaleY": 4,
+            "originX": 0,
+            "originY": 0,
+            "fillColor": "#e0e0e0",
+            "isStroked": true,
+            "width": 256,
+            "height": 20
+        },
+        {
+            "type": "Text",
+            "id": "c4092661-6339-47cf-9fea-8abff3a46e0c",
+            "label": "loadingText",
+            "x": 463,
+            "y": 383,
+            "scaleX": 4,
+            "scaleY": 4,
+            "text": "Loading...",
+            "fontFamily": "arial",
+            "fontSize": "20px",
+            "color": "#e0e0e0"
+        },
+        {
+            "type": "Sprite",
+            "id": "9b3af4e8-29d9-4a2a-829e-ff3655e0877b",
+            "label": "crab",
+            "texture": {
+                "key": "crab1"
+            },
+            "x": 1597,
+            "y": 267,
+            "scaleX": 3.4594762345506886,
+            "scaleY": 3.4594762345506886,
+            "angle": 26,
+            "animationPlayMethod": 1,
+            "animationKey": "crabs"
+        },
+        {
+            "type": "Sprite",
+            "id": "6b77705f-9a85-45df-8fbd-ac5f310d58d2",
+            "label": "crab_1",
+            "texture": {
+                "key": "crab1"
+            },
+            "x": 1420,
+            "y": 131,
+            "scaleX": 3.4594762345506886,
+            "scaleY": 3.4594762345506886,
+            "angle": 26,
+            "animationPlayMethod": 1,
+            "animationKey": "crabs"
+        },
+        {
+            "type": "Sprite",
+            "id": "81c0e749-081e-48de-90da-584d56aca61f",
+            "label": "crab_2",
+            "texture": {
+                "key": "crab1"
+            },
+            "x": 1253,
+            "y": 258,
+            "scaleX": 3.4594762345506886,
+            "scaleY": 3.4594762345506886,
+            "angle": -26,
+            "animationPlayMethod": 1,
+            "animationKey": "crabs"
+        },
+        {
+            "type": "Sprite",
+            "id": "bf293439-3211-4e05-93fa-4602847c14a6",
+            "label": "crab_3",
+            "texture": {
+                "key": "crab1"
+            },
+            "x": 1039,
+            "y": 137,
+            "scaleX": 3.4594762345506886,
+            "scaleY": 3.4594762345506886,
+            "angle": 26,
+            "animationPlayMethod": 1,
+            "animationKey": "crabs"
+        },
+        {
+            "type": "Sprite",
+            "id": "69a6a80e-3434-4e79-a605-ad251c33a47d",
+            "label": "crab_4",
+            "texture": {
+                "key": "crab1"
+            },
+            "x": 821,
+            "y": 246,
+            "scaleX": 3.4594762345506886,
+            "scaleY": 3.4594762345506886,
+            "angle": 26,
+            "animationPlayMethod": 1,
+            "animationKey": "crabs"
+        },
+        {
+            "type": "Sprite",
+            "id": "9af72591-e938-47f4-a8db-5461b4f43e4b",
+            "label": "crab_5",
+            "texture": {
+                "key": "crab1"
+            },
+            "x": 600,
+            "y": 130,
+            "scaleX": 3.4594762345506886,
+            "scaleY": 3.4594762345506886,
+            "angle": -26,
+            "animationPlayMethod": 1,
+            "animationKey": "crabs"
+        },
+        {
+            "type": "Sprite",
+            "id": "d2dcdca6-4441-46ff-bf36-000f351a12e3",
+            "label": "crab_6",
+            "texture": {
+                "key": "crab1"
+            },
+            "x": 408,
+            "y": 254,
+            "scaleX": 3.4594762345506886,
+            "scaleY": 3.4594762345506886,
+            "angle": 26,
+            "animationPlayMethod": 1,
+            "animationKey": "crabs"
+        },
+        {
+            "type": "Sprite",
+            "id": "6323affe-c147-4116-b684-a86e384a50f0",
+            "label": "crab_7",
+            "texture": {
+                "key": "crab1"
+            },
+            "x": 217,
+            "y": 134,
+            "scaleX": 3.4594762345506886,
+            "scaleY": 3.4594762345506886,
+            "angle": 26,
+            "animationPlayMethod": 1,
+            "animationKey": "crabs"
+        },
+        {
+            "type": "Sprite",
+            "id": "6623ae12-cda0-4302-85c9-dcad912fb04e",
+            "label": "crab_9",
+            "texture": {
+                "key": "crab1"
+            },
+            "x": 1732,
+            "y": 137,
+            "scaleX": 3.4594762345506886,
+            "scaleY": 3.4594762345506886,
+            "angle": -26,
+            "animationPlayMethod": 1,
+            "animationKey": "crabs"
+        },
+        {
+            "type": "Sprite",
+            "id": "4536d563-35de-441f-b6ed-b21e1a312e67",
+            "label": "sharks_1",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 343,
+            "y": 920,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "flipX": true,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "a1ae6253-3231-434f-b942-5c0eac933e67",
+            "label": "sharks_2",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 350,
+            "y": 821,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "176568ea-dbc5-4e21-a361-7a86864e5054",
+            "label": "sharks_3",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 550,
+            "y": 910,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "3364816f-f9f1-4163-a6e3-0ef412a32264",
+            "label": "sharks_4",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 557,
+            "y": 811,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "flipX": true,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "b2a68e83-ab75-4f0a-946b-8a90ef1491ea",
+            "label": "sharks_5",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 143,
+            "y": 924,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "82bb4e93-eadc-4bc4-9ad5-7ed13679ec01",
+            "label": "sharks_6",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 150,
+            "y": 825,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "flipX": true,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "3dd708a2-4fb4-46dd-a9c2-19cb8412e83f",
+            "label": "sharks_7",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 1383,
+            "y": 924,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "flipX": true,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "1bd5e275-e0cc-4f7c-8599-017b4f1506bf",
+            "label": "sharks_8",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 1390,
+            "y": 825,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "a403addc-613b-4af1-9e98-e612511b8b99",
+            "label": "sharks_9",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 1597,
+            "y": 927,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "2221d9fb-cb63-4ce5-aec9-2c9753dea689",
+            "label": "sharks_10",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 1604,
+            "y": 828,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "flipX": true,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "6146f026-a487-41d6-b392-ce53faff6253",
+            "label": "sharks_11",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 1794,
+            "y": 924,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "flipX": true,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "056c2efe-64e2-4aa6-b34f-e4be79200f0e",
+            "label": "sharks_12",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 1801,
+            "y": 825,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "4f973d8a-0b21-4440-8c9d-3cf220f3fd99",
+            "label": "sharks",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 767,
+            "y": 915,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "flipX": true,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "75b9f094-cd15-4ad3-95e2-2bdb7e6022f8",
+            "label": "sharks_13",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 774,
+            "y": 816,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "c9a048b8-24be-4b9a-989d-346edc8f3ffe",
+            "label": "sharks_14",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 981,
+            "y": 918,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "9b6b1be0-1b3c-4294-9e74-a1678ccef107",
+            "label": "sharks_15",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 988,
+            "y": 819,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "flipX": true,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "269d72c7-3eaf-451c-8610-ff325db30eab",
+            "label": "sharks_16",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 1178,
+            "y": 915,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "flipX": true,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        },
+        {
+            "type": "Sprite",
+            "id": "209aa51f-62c2-4f95-a1b6-d40d74ca915e",
+            "label": "sharks_17",
+            "texture": {
+                "key": "sharks"
+            },
+            "x": 1185,
+            "y": 816,
+            "scaleX": 2.308751334614091,
+            "scaleY": 2.308751334614091,
+            "animationPlayMethod": 1,
+            "animationKey": "shark"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "id": "22a41a32-e9f3-4145-b0a3-8fc4c3db7bab",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Preload1",
+        "borderWidth": 1910,
+        "borderHeight": 1000
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "29ad895c-6739-4075-9ca3-30c804702500",
+            "label": "mountains_b",
+            "texture": {
+                "key": "mountains_b"
+            },
+            "x": 961,
+            "y": 508
+        },
+        {
+            "type": "Rectangle",
+            "id": "e34218d8-040b-4510-a3e0-88667ba6338c",
+            "label": "progressBar",
+            "x": 460,
+            "y": 491,
+            "scaleX": 4,
+            "scaleY": 4,
+            "originX": 0,
+            "originY": 0,
+            "isFilled": true,
+            "fillColor": "#e0e0e0",
+            "width": 256,
+            "height": 20,
+            "list": [
+                {
+                    "prefabId": "ca949479-ab4d-45d5-b856-2cbecbd8d127",
+                    "id": "ba31490f-b7b9-43bf-928a-f88c69399171",
+                    "label": "preloadUpdater"
+                }
+            ]
+        },
+        {
+            "type": "Rectangle",
+            "id": "9e4c83e7-0abd-4bc4-8af5-edd15925fe19",
+            "label": "progressBarBg",
+            "x": 460,
+            "y": 491,
+            "scaleX": 4,
+            "scaleY": 4,
+            "originX": 0,
+            "originY": 0,
+            "fillColor": "#e0e0e0",
+            "isStroked": true,
+            "width": 256,
+            "height": 20
+        },
+        {
+            "type": "Text",
+            "id": "1f51b465-9eb2-4c18-a718-b1e0d36276ea",
+            "label": "loadingText",
+            "x": 444,
+            "y": 377,
+            "scaleX": 4,
+            "scaleY": 4,
+            "text": "Loading...",
+            "fontFamily": "arial",
+            "fontSize": "20px",
+            "color": "#e0e0e0"
+        },
+        {
+            "type": "Sprite",
+            "id": "21291a55-2f1d-4ced-a4f3-276820cbc180",
+            "label": "fire1",
+            "texture": {
+                "key": "fire1"
+            },
+            "x": 902,
+            "y": 393,
+            "scaleX": 3.55221264069819,
+            "scaleY": 3.55221264069819,
+            "animationPlayMethod": 1,
+            "animationKey": "fuegos"
+        },
+        {
+            "type": "Sprite",
+            "id": "738c24d5-d8ea-4135-913c-2a6906438de6",
+            "label": "fire11",
+            "texture": {
+                "key": "fire11"
+            },
+            "x": 1343,
+            "y": 391,
+            "scaleX": 3.596790881669694,
+            "scaleY": 3.596790881669694,
+            "animationPlayMethod": 1,
+            "animationKey": "fuegos"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}
