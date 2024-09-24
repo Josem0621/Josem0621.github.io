@@ -13,6 +13,8 @@ var bombs;
 var jugadorVivo;
 var music, over, item;
 var restartButton;
+let movingLeft = false;
+let movingRight = false;
 
 class Scene1 extends Phaser.Scene {
 
@@ -51,9 +53,9 @@ class Scene1 extends Phaser.Scene {
 		this.load.pack("pack2", "assets/asset-pack-scene1.json")
 
 		this.load.image('leftButton', 'assets/leftButton.png');
-    	this.load.image('rightButton', 'assets/rightButton.png');
-    	this.load.image('upButton', 'assets/upButton.png');
-    	this.load.image('downButton', 'assets/downButton.png');
+		this.load.image('rightButton', 'assets/rightButton.png');
+		this.load.image('upButton', 'assets/upButton.png');
+		this.load.image('downButton', 'assets/downButton.png');
 	}
 
 	create() {
@@ -192,7 +194,15 @@ class Scene1 extends Phaser.Scene {
 			}
 		}
 
-		
+		if (movingLeft) {
+			player.setVelocityX(-170);  // Mueve continuamente a la izquierda
+			player.anims.play('left', true);  // Reproduce la animación de caminar a la izquierda
+		}
+	
+		if (movingRight) {
+			player.setVelocityX(170);  // Mueve continuamente a la derecha
+			player.anims.play('right', true);  // Reproduce la animación de caminar a la derecha
+		}
 
 	}
 
@@ -723,8 +733,8 @@ class Scene1 extends Phaser.Scene {
 
 		// lava
 		const lava = this.add.image(997, 980, "lava");
-		                    
-		
+
+
 
 		//Jugador
 		player = this.physics.add.sprite(570, 530, player1Character);
@@ -754,7 +764,7 @@ class Scene1 extends Phaser.Scene {
 			frames: [{ key: player1Character, frame: 4 }],
 			frameRate: 20,
 		})
-		
+
 		cursors = this.input.keyboard.createCursorKeys();
 
 		if (player2Character != null) {
@@ -790,31 +800,56 @@ class Scene1 extends Phaser.Scene {
 			});
 		}
 
-		mobileModeButton = this.add.text(20, 100, 'Mobile Mode', { fontSize: '32px', fill: '#fff' })
-		mobileModeButton.setInteractive()
+		let mobileModeButton = this.add.text(20, 100, 'Mobile Mode', { fontSize: '32px', fill: '#fff' });
+		mobileModeButton.setInteractive();
+
 		mobileModeButton.on('pointerdown', () => {
-			leftButton = this.add.image(1100, 870, 'leftButton').setInteractive();
-			rightButton = this.add.image(1250, 870, 'rightButton').setInteractive();
-			upButton = this.add.image(800, 730, 'upButton').setInteractive();
-			downButton = this.add.image(795, 920, 'downButton').setInteractive();
-	
-			leftButton.on('pointerdown', () => { player.setVelocityX(-170); player.anims.play('left', true); });
-			leftButton.on('pointerup', () => { player.setVelocityX(0); player.anims.play('turn'); });
-		
-			rightButton.on('pointerdown', () => { player.setVelocityX(170); player.anims.play('right', true); });
-			rightButton.on('pointerup', () => { player.setVelocityX(0); player.anims.play('turn'); });
-		
-			upButton.on('pointerdown', () => { if (player.body.touching.down) { player.setVelocityY(-290); } });
-			
-			downButton.on('pointerdown', () => { player.setVelocityY(300); });
-			}
-		)
-		
+			// Crear los botones para el control del jugador
+			let leftButton = this.add.image(1100, 870, 'leftButton').setInteractive();
+			let rightButton = this.add.image(1250, 870, 'rightButton').setInteractive();
+			let upButton = this.add.image(800, 730, 'upButton').setInteractive();
+			let downButton = this.add.image(795, 920, 'downButton').setInteractive();
+
+			// Definir las acciones para el botón izquierdo
+			leftButton.on('pointerdown', () => {
+				movingLeft = true;  // Activa el movimiento hacia la izquierda
+			});
+
+			leftButton.on('pointerup', () => {
+				movingLeft = false;  // Detiene el movimiento hacia la izquierda
+				player.setVelocityX(0);  // Para al soltar el botón
+				player.anims.play('turn');  // Cambia a la animación de 'parado'
+			});
+
+			// Definir las acciones para el botón derecho
+			rightButton.on('pointerdown', () => {
+				movingRight = true;  // Activa el movimiento hacia la derecha
+			});
+
+			rightButton.on('pointerup', () => {
+				movingRight = false;  // Detiene el movimiento hacia la derecha
+				player.setVelocityX(0);  // Para al soltar el botón
+				player.anims.play('turn');  // Cambia a la animación de 'parado'
+			});
+
+			// Definir las acciones para el botón hacia arriba (saltar)
+			upButton.on('pointerdown', () => {
+				if (player.body.touching.down) {
+					player.setVelocityY(-290);  // Salto
+				}
+			});
+
+			// Definir las acciones para el botón hacia abajo
+			downButton.on('pointerdown', () => {
+				player.setVelocityY(300);  // Bajar
+			});
+		});
+
 		// Botones táctiles para móviles
-		
+
 		// Hacer los botones interactivos
-		
-	
+
+
 		// lists
 		const monedas = [moneda1, moneda2, moneda3, moneda4, moneda5, moneda6, moneda7, moneda8];
 		const gemas = [gema1, gema2];
@@ -883,10 +918,10 @@ class Scene1 extends Phaser.Scene {
 			}
 		}
 
-		
+
 	}
 
-	
+
 
 	pauseGame() {
 		// Hace visible el botón de reanudar
