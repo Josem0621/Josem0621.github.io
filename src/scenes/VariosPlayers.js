@@ -206,7 +206,7 @@ class Scene6 extends Phaser.Scene {
                 break;
             case 'dude3':
                 this.triangles[2].setFillStyle(currentPlayer === 1 ? 0xFF85C1E9 : 0xFF73C6B6);
-                this.rectangles[2].setFillStyle(currentPlayer === 1 ? 0x0000ff : 0xFF73C6B6);
+                this.rectangles[2].setFillStyle(currentPlayer === 1 ? 0xFF85C1E9 : 0xFF73C6B6);
                 break;
             case 'dude4':
                 this.triangles[3].setFillStyle(currentPlayer === 1 ? 0xFF85C1E9 : 0xFF73C6B6);
