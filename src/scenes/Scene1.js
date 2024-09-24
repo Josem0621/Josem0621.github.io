@@ -789,7 +789,7 @@ class Scene1 extends Phaser.Scene {
 		}
 
 		// Botones táctiles para móviles
-		if (this.sys.game.device.os.android || this.sys.game.device.os.iOS) {
+		if (this.sys.game.device.input.touch) {
 			// Si es móvil, creamos los botones táctiles
 			leftButton = this.add.image(50, 500, 'leftButton').setInteractive();
 			rightButton = this.add.image(150, 500, 'rightButton').setInteractive();
