@@ -2,6 +2,7 @@ var player;
 var player2;
 var wasd;
 var leftButton, rightButton, upButton, downButton;
+var mobileModeButton;
 var score = 0;
 var scoreText;
 var moneda1, moneda2, moneda3, moneda4, moneda5, moneda6, moneda7, moneda8;
@@ -754,6 +755,7 @@ class Scene1 extends Phaser.Scene {
 			frameRate: 20,
 		})
 		
+		cursors = this.input.keyboard.createCursorKeys();
 
 		if (player2Character != null) {
 			// Jugador 2
@@ -788,29 +790,28 @@ class Scene1 extends Phaser.Scene {
 			});
 		}
 
-		// Botones táctiles para móviles
-		if (this.sys.game.device.input.touch) {
-			// Si es móvil, creamos los botones táctiles
-			leftButton = this.add.image(50, 500, 'leftButton').setInteractive();
-			rightButton = this.add.image(150, 500, 'rightButton').setInteractive();
-			upButton = this.add.image(100, 450, 'upButton').setInteractive();
-			downButton = this.add.image(100, 550, 'downButton').setInteractive();
-
+		mobileModeButton = this.add.text(20, 100, 'Mobile Mode', { fontSize: '32px', fill: '#fff' })
+		mobileModeButton.setInteractive()
+		mobileModeButton.on('pointerdown', () => {
+			leftButton = this.add.image(1100, 870, 'leftButton').setInteractive();
+			rightButton = this.add.image(1250, 870, 'rightButton').setInteractive();
+			upButton = this.add.image(800, 730, 'upButton').setInteractive();
+			downButton = this.add.image(795, 920, 'downButton').setInteractive();
+	
 			leftButton.on('pointerdown', () => { player.setVelocityX(-170); player.anims.play('left', true); });
 			leftButton.on('pointerup', () => { player.setVelocityX(0); player.anims.play('turn'); });
-	
+		
 			rightButton.on('pointerdown', () => { player.setVelocityX(170); player.anims.play('right', true); });
 			rightButton.on('pointerup', () => { player.setVelocityX(0); player.anims.play('turn'); });
-	
-			upButton.on('pointerdown', () => { if (player.body.touching.down) { player.setVelocityY(-290); } });
 		
+			upButton.on('pointerdown', () => { if (player.body.touching.down) { player.setVelocityY(-290); } });
+			
 			downButton.on('pointerdown', () => { player.setVelocityY(300); });
-	
-		}else {
-			// Configurar las teclas de flechas para escritorio
-			cursors = this.input.keyboard.createCursorKeys();
-		}
-	
+			}
+		)
+		
+		// Botones táctiles para móviles
+		
 		// Hacer los botones interactivos
 		
 	
@@ -881,7 +882,11 @@ class Scene1 extends Phaser.Scene {
 				item.setMute(true)
 			}
 		}
+
+		
 	}
+
+	
 
 	pauseGame() {
 		// Hace visible el botón de reanudar
