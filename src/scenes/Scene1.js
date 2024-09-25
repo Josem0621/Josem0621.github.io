@@ -1,7 +1,7 @@
 var player;
 var player2;
 var wasd;
-var leftButton, rightButton, upButton, downButton;
+var leftButton, rightButton, upButton, downButton, toggleControls;
 var mobileModeButton;
 var score = 0;
 var scoreText;
@@ -56,6 +56,8 @@ class Scene1 extends Phaser.Scene {
 		this.load.image('rightButton', 'assets/rightButton.png');
 		this.load.image('upButton', 'assets/upButton.png');
 		this.load.image('downButton', 'assets/downButton.png');
+		this.load.image('toggleControls', 'assets/toggleControls.png'); // botón para mostrar/ocultar controles
+		this.load.image('fullscreenButton', 'assets/fullscreenButton.png'); //Pantalla completa
 	}
 
 	create() {
@@ -173,6 +175,7 @@ class Scene1 extends Phaser.Scene {
 		if (cursors.down.isDown) {
 			player.setVelocityY(300);
 		}
+
 
 		if (player2Character != null) {
 			// Movimiento para el segundo personaje (con teclas ASDW)
@@ -800,55 +803,50 @@ class Scene1 extends Phaser.Scene {
 			});
 		}
 
-		let mobileModeButton = this.add.text(20, 100, 'Mobile Mode', { fontSize: '32px', fill: '#fff' });
-		mobileModeButton.setInteractive();
-
-		mobileModeButton.on('pointerdown', () => {
-			// Crear los botones para el control del jugador
-			let leftButton = this.add.image(1100, 870, 'leftButton').setInteractive();
-			let rightButton = this.add.image(1250, 870, 'rightButton').setInteractive();
-			let upButton = this.add.image(800, 730, 'upButton').setInteractive();
-			let downButton = this.add.image(795, 920, 'downButton').setInteractive();
-
-			// Definir las acciones para el botón izquierdo
-			leftButton.on('pointerdown', () => {
-				movingLeft = true;  // Activa el movimiento hacia la izquierda
-			});
-
-			leftButton.on('pointerup', () => {
-				movingLeft = false;  // Detiene el movimiento hacia la izquierda
-				player.setVelocityX(0);  // Para al soltar el botón
-				player.anims.play('turn');  // Cambia a la animación de 'parado'
-			});
-
-			// Definir las acciones para el botón derecho
-			rightButton.on('pointerdown', () => {
-				movingRight = true;  // Activa el movimiento hacia la derecha
-			});
-
-			rightButton.on('pointerup', () => {
-				movingRight = false;  // Detiene el movimiento hacia la derecha
-				player.setVelocityX(0);  // Para al soltar el botón
-				player.anims.play('turn');  // Cambia a la animación de 'parado'
-			});
-
-			// Definir las acciones para el botón hacia arriba (saltar)
-			upButton.on('pointerdown', () => {
-				if (player.body.touching.down) {
-					player.setVelocityY(-290);  // Salto
-				}
-			});
-
-			// Definir las acciones para el botón hacia abajo
-			downButton.on('pointerdown', () => {
-				player.setVelocityY(300);  // Bajar
-			});
+		// Botones táctiles
+		this.leftButton = this.add.image(1350, 865, 'leftButton').setInteractive().setVisible(false);
+		this.rightButton = this.add.image(1600, 865, 'rightButton').setInteractive().setVisible(false);
+		this.upButton = this.add.image(400, 750, 'upButton').setInteractive().setVisible(false);
+		this.downButton = this.add.image(395, 920, 'downButton').setInteractive().setVisible(false);
+		
+		// Botón para mostrar/ocultar controles
+		this.toggleControlsButton = this.add.image(1782, 35, 'toggleControls').setInteractive();
+		
+		this.showControls = false;  // Control para mostrar/ocultar los botones
+	
+		// Evento para mostrar/ocultar los controles
+		this.toggleControlsButton.on('pointerdown', () => {
+			this.showControls = !this.showControls;
+			this.leftButton.setVisible(this.showControls);
+			this.rightButton.setVisible(this.showControls);
+			this.upButton.setVisible(this.showControls);
+			this.downButton.setVisible(this.showControls);
 		});
+	
+		// Eventos de movimiento de los botones táctiles
+		this.leftButton.on('pointerdown', () => cursors.left.isDown = true);
+		this.leftButton.on('pointerup', () => cursors.left.isDown = false);
+	
+		this.rightButton.on('pointerdown', () => cursors.right.isDown = true);
+		this.rightButton.on('pointerup', () => cursors.right.isDown = false);
+	
+		this.upButton.on('pointerdown', () => cursors.up.isDown = true);
+		this.upButton.on('pointerup', () => cursors.up.isDown = false);
+	
+		this.downButton.on('pointerdown', () => cursors.down.isDown = true);
+		this.downButton.on('pointerup', () => cursors.down.isDown = false);
+	
+		// Crear botón de pantalla completa
+		let fullscreenButton = this.add.image(1855, 35, 'fullscreenButton').setInteractive();
 
-		// Botones táctiles para móviles
-
-		// Hacer los botones interactivos
-
+		// Evento para activar/desactivar pantalla completa
+		fullscreenButton.on('pointerdown', () => {
+			if (this.scale.isFullscreen) {
+				this.scale.stopFullscreen(); // Salir de pantalla completa
+			} else {
+				this.scale.startFullscreen(); // Activar pantalla completa
+			}
+		});
 
 		// lists
 		const monedas = [moneda1, moneda2, moneda3, moneda4, moneda5, moneda6, moneda7, moneda8];

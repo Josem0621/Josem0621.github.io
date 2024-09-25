@@ -11,6 +11,7 @@ class Level extends Phaser.Scene {
 	preload(){
 		this.load.audio('menu_music', 'assets/menu_music.mp3');
 		this.load.image('retro', 'assets/fondo.png')
+		this.load.image('fullscreenButton', 'assets/fullscreenButton1.png'); //Pantalla completa
 
 	}
 
@@ -120,6 +121,17 @@ class Level extends Phaser.Scene {
 		});
 
 		this.events.emit("scene-awake");
+
+		let fullscreenButton = this.add.image(1855, 45, 'fullscreenButton').setInteractive();
+
+		// Evento para activar/desactivar pantalla completa
+		fullscreenButton.on('pointerdown', () => {
+			if (this.scale.isFullscreen) {
+				this.scale.stopFullscreen(); // Salir de pantalla completa
+			} else {
+				this.scale.startFullscreen(); // Activar pantalla completa
+			}
+		});
 
 
 	}

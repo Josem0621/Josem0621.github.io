@@ -45,6 +45,13 @@ class Scene2 extends Phaser.Scene {
 		}
 		this.load.image('bomb2', 'assets/bomb.png');
 		this.load.pack("pack3", "assets/asset-pack-scene2.json")
+
+		this.load.image('leftButton', 'assets/leftButton.png');
+		this.load.image('rightButton', 'assets/rightButton.png');
+		this.load.image('upButton', 'assets/upButton.png');
+		this.load.image('downButton', 'assets/downButton.png');
+		this.load.image('toggleControls', 'assets/toggleControls.png'); // botón para mostrar/ocultar controles
+		this.load.image('fullscreenButton', 'assets/fullscreenButton.png'); //Pantalla completa
 	}
 
 	create() {
@@ -761,6 +768,51 @@ class Scene2 extends Phaser.Scene {
 				right: Phaser.Input.Keyboard.KeyCodes.D
 			});
 		}
+
+		// Botones táctiles
+		this.leftButton = this.add.image(1350, 865, 'leftButton').setInteractive().setVisible(false);
+		this.rightButton = this.add.image(1600, 865, 'rightButton').setInteractive().setVisible(false);
+		this.upButton = this.add.image(400, 750, 'upButton').setInteractive().setVisible(false);
+		this.downButton = this.add.image(395, 920, 'downButton').setInteractive().setVisible(false);
+		
+		// Botón para mostrar/ocultar controles
+		this.toggleControlsButton = this.add.image(1782, 35, 'toggleControls').setInteractive();
+		
+		this.showControls = false;  // Control para mostrar/ocultar los botones
+	
+		// Evento para mostrar/ocultar los controles
+		this.toggleControlsButton.on('pointerdown', () => {
+			this.showControls = !this.showControls;
+			this.leftButton.setVisible(this.showControls);
+			this.rightButton.setVisible(this.showControls);
+			this.upButton.setVisible(this.showControls);
+			this.downButton.setVisible(this.showControls);
+		});
+	
+		// Eventos de movimiento de los botones táctiles
+		this.leftButton.on('pointerdown', () => cursors.left.isDown = true);
+		this.leftButton.on('pointerup', () => cursors.left.isDown = false);
+	
+		this.rightButton.on('pointerdown', () => cursors.right.isDown = true);
+		this.rightButton.on('pointerup', () => cursors.right.isDown = false);
+	
+		this.upButton.on('pointerdown', () => cursors.up.isDown = true);
+		this.upButton.on('pointerup', () => cursors.up.isDown = false);
+	
+		this.downButton.on('pointerdown', () => cursors.down.isDown = true);
+		this.downButton.on('pointerup', () => cursors.down.isDown = false);
+	
+		// Crear botón de pantalla completa
+		let fullscreenButton = this.add.image(1855, 35, 'fullscreenButton').setInteractive();
+
+		// Evento para activar/desactivar pantalla completa
+		fullscreenButton.on('pointerdown', () => {
+			if (this.scale.isFullscreen) {
+				this.scale.stopFullscreen(); // Salir de pantalla completa
+			} else {
+				this.scale.startFullscreen(); // Activar pantalla completa
+			}
+		});
 
 		// lists
 		const plataformas = [plataforma_grande, plataforma_grande_2, plataforma_chica_9, plataforma_mediana_2, plataforma_chica_8, plataforma_chica_7, plataforma_chica_6, plataforma_mediana_1, platagua2, platagua1, plataforma_chica_5, plataforma_chica_4, plataforma_grande_1, plataforma_chica_3, plataforma_mediana, plataforma_chica_2, plataforma_chica_1, plataforma_chica];
