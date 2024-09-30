@@ -51,7 +51,7 @@ class Scene2 extends Phaser.Scene {
 		this.load.image('upButton', 'assets/upButton.png');
 		this.load.image('downButton', 'assets/downButton.png');
 		this.load.image('toggleControls', 'assets/toggleControls.png'); // botón para mostrar/ocultar controles
-		this.load.image('fullscreenButton', 'assets/fullscreenButtonacua.png'); //Pantalla completa
+		this.load.image('fullscreenButtonacua', 'assets/fullscreenButtonacua.png'); //Pantalla completa
 	}
 
 	create() {
@@ -287,7 +287,7 @@ class Scene2 extends Phaser.Scene {
 	// Función para cambiar de escena cuando el jugador muere y se cumplen ciertos puntos
 	changeSceneIfConditionsMet() {
 		// Define la cantidad de puntos requerida para cambiar de escena
-		const puntosParaCambio = 400;
+		const puntosParaCambio = 40;
 
 
 		// Verifica si el jugador ha muerto (usando la variable jugadorVivo)
@@ -803,10 +803,10 @@ class Scene2 extends Phaser.Scene {
 		this.downButton.on('pointerup', () => cursors.down.isDown = false);
 	
 		// Crear botón de pantalla completa
-		let fullscreenButton = this.add.image(1855, 35, 'fullscreenButton').setInteractive();
+		let fullscreenButtonacua = this.add.image(1855, 35, 'fullscreenButtonacua').setInteractive();
 
 		// Evento para activar/desactivar pantalla completa
-		fullscreenButton.on('pointerdown', () => {
+		fullscreenButtonacua.on('pointerdown', () => {
 			if (this.scale.isFullscreen) {
 				this.scale.stopFullscreen(); // Salir de pantalla completa
 			} else {
