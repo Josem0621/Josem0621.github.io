@@ -48,7 +48,7 @@ class Scene3 extends Phaser.Scene {
 		this.load.image('rightButton', 'assets/rightButton.png');
 		this.load.image('upButton', 'assets/upButton.png');
 		this.load.image('downButton', 'assets/downButton.png');
-		this.load.image('toggleControls', 'assets/toggleControls.png'); // botón para mostrar/ocultar controles
+		this.load.image('toggleControlsforest', 'assets/toggleControlsforest.png'); // botón para mostrar/ocultar controles
 		this.load.image('fullscreenButtonforest', 'assets/fullscreenButtonforest.png'); //Pantalla completa
 	}
 
@@ -738,7 +738,7 @@ class Scene3 extends Phaser.Scene {
 		this.downButton = this.add.image(395, 920, 'downButton').setInteractive().setVisible(false);
 		
 		// Botón para mostrar/ocultar controles
-		this.toggleControlsButton = this.add.image(1782, 35, 'toggleControls').setInteractive();
+		this.toggleControlsButton = this.add.image(1782, 35, 'toggleControlsforest').setInteractive();
 		
 		this.showControls = false;  // Control para mostrar/ocultar los botones
 	
@@ -826,20 +826,20 @@ class Scene3 extends Phaser.Scene {
 		this.platforms2 = platforms2;
 		this.platforms3 = platforms3;
 		this.lava = lava
-		this.resumeButton = this.add.image(980, 35, "playButton")
+		this.resumeButton = this.add.image(980, 35, "forestplayButton")
 		this.resumeButton.setInteractive();
 		this.resumeButton.setVisible(false);
 		this.resumeButton.on("pointerdown", () => this.resumeGame())
 
 		// Agrega un botón de pausa y lo hace una propiedad del objeto de juego
-		this.pauseButton = this.add.image(980, 35, "stopButton");
+		this.pauseButton = this.add.image(980, 35, "foreststopButton");
 		this.pauseButton.setInteractive();
 		this.pauseButton.on("pointerdown", () => this.pauseGame());
 		this.events.emit("scene-awake");
 
 		// Crea las imágenes para sonido y silencio
-		const soundOnImage = this.add.image(1700, 35, "musicButton");
-		const soundOffImage = this.add.image(1700, 35, "muteButton");
+		const soundOnImage = this.add.image(1700, 35, "forestsoundButton");
+		const soundOffImage = this.add.image(1700, 35, "forestmuteButton");
 
 		// Inicializa la visibilidad de las imágenes
 		soundOnImage.setVisible(true);

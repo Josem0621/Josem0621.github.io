@@ -1,7 +1,7 @@
 var player;
 var player2;
 var wasd;
-var leftButton, rightButton, upButton, downButton, toggleControls;
+var leftButton, rightButton, upButton, downButton, toggleControlsfire;
 var mobileModeButton;
 var score = 0;
 var scoreText;
@@ -56,7 +56,7 @@ class Scene1 extends Phaser.Scene {
 		this.load.image('rightButton', 'assets/rightButton.png');
 		this.load.image('upButton', 'assets/upButton.png');
 		this.load.image('downButton', 'assets/downButton.png');
-		this.load.image('toggleControls', 'assets/toggleControls.png'); // botón para mostrar/ocultar controles
+		this.load.image('toggleControlsfire', 'assets/toggleControlsfire.png'); // botón para mostrar/ocultar controles
 		this.load.image('fullscreenButtonfire', 'assets/fullscreenButtonfire.png'); //Pantalla completa
 	}
 
@@ -810,7 +810,7 @@ class Scene1 extends Phaser.Scene {
 		this.downButton = this.add.image(395, 920, 'downButton').setInteractive().setVisible(false);
 		
 		// Botón para mostrar/ocultar controles
-		this.toggleControlsButton = this.add.image(1782, 35, 'toggleControls').setInteractive();
+		this.toggleControlsButton = this.add.image(1782, 35, 'toggleControlsfire').setInteractive();
 		
 		this.showControls = false;  // Control para mostrar/ocultar los botones
 	

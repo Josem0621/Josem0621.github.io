@@ -50,7 +50,7 @@ class Scene2 extends Phaser.Scene {
 		this.load.image('rightButton', 'assets/rightButton.png');
 		this.load.image('upButton', 'assets/upButton.png');
 		this.load.image('downButton', 'assets/downButton.png');
-		this.load.image('toggleControls', 'assets/toggleControls.png'); // botón para mostrar/ocultar controles
+		this.load.image('toggleControlsacua', 'assets/toggleControlsacua.png'); // botón para mostrar/ocultar controles
 		this.load.image('fullscreenButtonacua', 'assets/fullscreenButtonacua.png'); //Pantalla completa
 	}
 
@@ -776,7 +776,7 @@ class Scene2 extends Phaser.Scene {
 		this.downButton = this.add.image(395, 920, 'downButton').setInteractive().setVisible(false);
 		
 		// Botón para mostrar/ocultar controles
-		this.toggleControlsButton = this.add.image(1782, 35, 'toggleControls').setInteractive();
+		this.toggleControlsButton = this.add.image(1782, 35, 'toggleControlsacua').setInteractive();
 		
 		this.showControls = false;  // Control para mostrar/ocultar los botones
 	
