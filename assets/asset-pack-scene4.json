@@ -2,19 +2,19 @@
     "section1": {
         "files": [
             {
-                "url": "assets/acuamuteButton.png",
+                "url": "assets/airemuteButton.png",
                 "type": "image",
-                "key": "acuamuteButton"
+                "key": "airemuteButton"
             },
             {
-                "url": "assets/acuarestartButton.png",
+                "url": "assets/airerestartButton.png",
                 "type": "image",
-                "key": "acuarestartButton"
+                "key": "airerestartButton"
             },
             {
-                "url": "assets/acuarplayButton.png",
+                "url": "assets/aireplayButton.png",
                 "type": "image",
-                "key": "acuarplayButton"
+                "key": "aireplayButton"
             },
            
            
@@ -192,17 +192,17 @@
             },
             
             {
-                "url": "assets/musicButton.png",
+                "url": "assets/airesoundButton.png",
                 "type": "image",
-                "key": "musicButton"
+                "key": "airesoundButton"
             },
             {
-                "url": "assets/mute.png",
+                "url": "assets/airemuteButton.png",
                 "type": "image",
                 "key": "mute"
             },
             {
-                "url": "assets/muteButton.png",
+                "url": "assets/airemuteButton.png",
                 "type": "image",
                 "key": "muteButton"
             },
@@ -254,31 +254,11 @@
                 "type": "image",
                 "key": "panda-frames"
             },
-           
-            {
-                "url": "assets/pausa.png",
-                "type": "image",
-                "key": "pausa"
-            },
-           
-           
-            
-            {
-                "url": "assets/playButton.png",
-                "type": "image",
-                "key": "playButton"
-            },
-            {
-                "url": "assets/restartButton.png",
-                "type": "image",
-                "key": "restartButton"
-            },
             {
                 "url": "assets/retro.png",
                 "type": "image",
                 "key": "retro"
             },
-           
             {
                 "url": "assets/Sky.jpg",
                 "type": "image",
@@ -290,11 +270,6 @@
                 ],
                 "type": "audio",
                 "key": "SkyLevelSound"
-            },
-            {
-                "url": "assets/sonidoicono.png",
-                "type": "image",
-                "key": "sonidoicono"
             },
            
             {
@@ -328,9 +303,9 @@
                 "key": "StartAnimation"
             },
             {
-                "url": "assets/stopButton.png",
+                "url": "assets/airestopButton.png",
                 "type": "image",
-                "key": "stopButton"
+                "key": "airestopButton"
             },
             
             {

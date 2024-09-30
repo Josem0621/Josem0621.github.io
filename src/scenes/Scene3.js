@@ -78,7 +78,7 @@ class Scene3 extends Phaser.Scene {
 			fontSize: '32px'
 		}
 		)
-		pointText = this.add.text(15, 40, "N E X T  L E V E L : 400", {
+		pointText = this.add.text(15, 40, "N E X T  L E V E L : 450", {
 			fontSize: '32px'
 		})
 
@@ -308,7 +308,7 @@ class Scene3 extends Phaser.Scene {
 	// Función para cambiar de escena cuando el jugador muere y se cumplen ciertos puntos
 	changeSceneIfConditionsMet() {
 		// Define la cantidad de puntos requerida para cambiar de escena
-		const puntosParaCambio = 40;
+		const puntosParaCambio = 450;
 
 
 		// Verifica si el jugador ha muerto (usando la variable jugadorVivo)

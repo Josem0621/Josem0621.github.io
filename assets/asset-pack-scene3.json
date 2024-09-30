@@ -168,14 +168,14 @@
                 "key": "monedas"
             },
             {
-                "url": "assets/musicButton.png",
+                "url": "assets/forestsoundButton.png",
                 "type": "image",
-                "key": "musicButton"
+                "key": "forestsoundButton"
             },
             {
-                "url": "assets/muteButton.png",
+                "url": "assets/forestmuteButton.png",
                 "type": "image",
-                "key": "muteButton"
+                "key": "forestmuteButton"
             },
             {
                 "url": [
@@ -245,19 +245,19 @@
                 "key": "plat6_jungle"
             },
             {
-                "url": "assets/playButton.png",
+                "url": "assets/forestplayButton.png",
                 "type": "image",
-                "key": "playButton"
+                "key": "forestplayButton"
             },
             {
-                "url": "assets/restartButton.png",
+                "url": "assets/forestrestartButton.png",
                 "type": "image",
-                "key": "restartButton"
+                "key": "forestrestartButton"
             },
             {
-                "url": "assets/stopButton.png",
+                "url": "assets/foreststopButton.png",
                 "type": "image",
-                "key": "stopButton"
+                "key": "foreststopButton"
             }
         ]
     },

@@ -2,29 +2,29 @@
     "section1": {
         "files": [
             {
-                "url": "assets/acuamuteButton.png",
+                "url": "assets/spacemuteButton.png",
                 "type": "image",
-                "key": "acuamuteButton"
+                "key": "spacemuteButton"
             },
             {
-                "url": "assets/acuarestartButton.png",
+                "url": "assets/spacerestartButton.png",
                 "type": "image",
-                "key": "acuarestartButton"
+                "key": "spacerestartButton"
             },
             {
-                "url": "assets/acuarplayButton.png",
+                "url": "assets/spaceplayButton.png",
                 "type": "image",
-                "key": "acuarplayButton"
+                "key": "spaceplayButton"
             },
             {
-                "url": "assets/acuarstopButton.png",
+                "url": "assets/spacestopButton.png",
                 "type": "image",
-                "key": "acuarstopButton"
+                "key": "spacestopButton"
             },
             {
-                "url": "assets/acuasoundButton.png",
+                "url": "assets/spacesoundButton.png",
                 "type": "image",
-                "key": "acuasoundButton"
+                "key": "spacesoundButton"
             },
             
             {
@@ -402,11 +402,6 @@
                 "url": "src/components/StartAnimation.js",
                 "type": "script",
                 "key": "StartAnimation"
-            },
-            {
-                "url": "assets/stopButton.png",
-                "type": "image",
-                "key": "stopButton"
             },
             
             {

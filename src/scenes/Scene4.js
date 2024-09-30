@@ -284,7 +284,7 @@ class Scene4 extends Phaser.Scene {
 	// Función para cambiar de escena cuando el jugador muere y se cumplen ciertos puntos
 	changeSceneIfConditionsMet() {
 		// Define la cantidad de puntos requerida para cambiar de escena
-		const puntosParaCambio = 50;
+		const puntosParaCambio = 500;
 
 
 		// Verifica si el jugador ha muerto (usando la variable jugadorVivo)
@@ -315,7 +315,7 @@ class Scene4 extends Phaser.Scene {
 				this.pauseButton.setVisible(false)
 				this.resumeButton.setVisible(false)
 				// Reinicia la escena de juego cuando se hace clic en el botón
-				restartButton = this.add.image(950, 500, "acuarestartButton");
+				restartButton = this.add.image(950, 500, "airerestartButton");
 				restartButton.setInteractive(); // Hacer el botón interactivo
 				restartButton.on("pointerdown", () => {
 					this.scene.restart();
@@ -832,20 +832,20 @@ class Scene4 extends Phaser.Scene {
 		this.gemas = gemas;
 		this.lava = lava
 
-		this.resumeButton = this.add.image(980, 35, "acuarplayButton")
+		this.resumeButton = this.add.image(980, 35, "aireplayButton")
 		this.resumeButton.setInteractive();
 		this.resumeButton.setVisible(false);
 		this.resumeButton.on("pointerdown", () => this.resumeGame())
 
 		// Agrega un botón de pausa y lo hace una propiedad del objeto de juego
-		this.pauseButton = this.add.image(980, 35, "acuarstopButton");
+		this.pauseButton = this.add.image(980, 35, "airestopButton");
 		this.pauseButton.setInteractive();
 		this.pauseButton.on("pointerdown", () => this.pauseGame());
 		this.events.emit("scene-awake");
 
 		// Crea las imágenes para sonido y silencio
-		const soundOnImage = this.add.image(1700, 35, "acuasoundButton");
-		const soundOffImage = this.add.image(1700, 35, "acuamuteButton");
+		const soundOnImage = this.add.image(1700, 35, "airesoundButton");
+		const soundOffImage = this.add.image(1700, 35, "airemuteButton");
 	
 		// Inicializa la visibilidad de las imágenes
 		soundOnImage.setVisible(true);

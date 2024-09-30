@@ -819,20 +819,20 @@ class Scene5 extends Phaser.Scene {
 		this.aliens = aliens
 		this.ovni = ovni
 
-		this.resumeButton = this.add.image(980, 35, "playButton")
+		this.resumeButton = this.add.image(980, 35, "spaceplayButton")
 		this.resumeButton.setInteractive();
 		this.resumeButton.setVisible(false);
 		this.resumeButton.on("pointerdown", () => this.resumeGame())
 
 		// Agrega un botón de pausa y lo hace una propiedad del objeto de juego
-		this.pauseButton = this.add.image(980, 35, "stopButton");
+		this.pauseButton = this.add.image(980, 35, "spacestopButton");
 		this.pauseButton.setInteractive();
 		this.pauseButton.on("pointerdown", () => this.pauseGame());
 		this.events.emit("scene-awake");
 
 		// Crea las imágenes para sonido y silencio
-		const soundOnImage = this.add.image(1700, 35, "musicButton");
-		const soundOffImage = this.add.image(1700, 35, "muteButton");
+		const soundOnImage = this.add.image(1700, 35, "spacesoundButton");
+		const soundOffImage = this.add.image(1700, 35, "spacemuteButton");
 
 		// Inicializa la visibilidad de las imágenes
 		soundOnImage.setVisible(true);

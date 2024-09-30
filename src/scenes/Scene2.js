@@ -287,7 +287,7 @@ class Scene2 extends Phaser.Scene {
 	// Función para cambiar de escena cuando el jugador muere y se cumplen ciertos puntos
 	changeSceneIfConditionsMet() {
 		// Define la cantidad de puntos requerida para cambiar de escena
-		const puntosParaCambio = 40;
+		const puntosParaCambio = 400;
 
 
 		// Verifica si el jugador ha muerto (usando la variable jugadorVivo)
