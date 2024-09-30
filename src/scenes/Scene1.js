@@ -803,8 +803,6 @@ class Scene1 extends Phaser.Scene {
 			});
 		}
 
-		this.input.addPointer(4);
-
 		// Botones táctiles
 		this.leftButton = this.add.image(1350, 865, 'leftButton').setInteractive().setVisible(false);
 		this.rightButton = this.add.image(1600, 865, 'rightButton').setInteractive().setVisible(false);
