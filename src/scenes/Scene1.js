@@ -201,7 +201,7 @@ class Scene1 extends Phaser.Scene {
 			player.setVelocityX(-170);  // Mueve continuamente a la izquierda
 			player.anims.play('left', true);  // Reproduce la animación de caminar a la izquierda
 		}
-	
+
 		if (movingRight) {
 			player.setVelocityX(170);  // Mueve continuamente a la derecha
 			player.anims.play('right', true);  // Reproduce la animación de caminar a la derecha
@@ -803,19 +803,23 @@ class Scene1 extends Phaser.Scene {
 			});
 		}
 
-		this.input.addPointer(4);
+		// Variables para gestionar los estados de los botones
+		this.isMovingLeft = false;
+		this.isMovingRight = false;
+		this.isJumping = false;
+		this.isMovingDown = false;
 
 		// Botones táctiles
 		this.leftButton = this.add.image(1350, 865, 'leftButton').setInteractive().setVisible(false);
 		this.rightButton = this.add.image(1600, 865, 'rightButton').setInteractive().setVisible(false);
 		this.upButton = this.add.image(400, 750, 'upButton').setInteractive().setVisible(false);
 		this.downButton = this.add.image(395, 920, 'downButton').setInteractive().setVisible(false);
-		
+
 		// Botón para mostrar/ocultar controles
 		this.toggleControlsButton = this.add.image(1782, 35, 'toggleControls').setInteractive();
-		
+
 		this.showControls = false;  // Control para mostrar/ocultar los botones
-	
+
 		// Evento para mostrar/ocultar los controles
 		this.toggleControlsButton.on('pointerdown', () => {
 			this.showControls = !this.showControls;
@@ -824,20 +828,59 @@ class Scene1 extends Phaser.Scene {
 			this.upButton.setVisible(this.showControls);
 			this.downButton.setVisible(this.showControls);
 		});
-	
-		// Eventos de movimiento de los botones táctiles
-		this.leftButton.on('pointerdown', () => cursors.left.isDown = true);
-		this.leftButton.on('pointerup', () => cursors.left.isDown = false);
-	
-		this.rightButton.on('pointerdown', () => cursors.right.isDown = true);
-		this.rightButton.on('pointerup', () => cursors.right.isDown = false);
-	
-		this.upButton.on('pointerdown', () => cursors.up.isDown = true);
-		this.upButton.on('pointerup', () => cursors.up.isDown = false);
-	
-		this.downButton.on('pointerdown', () => cursors.down.isDown = true);
-		this.downButton.on('pointerup', () => cursors.down.isDown = false);
-	
+
+		// Evento para el botón de la izquierda
+		this.leftButton.on('pointerdown', () => {
+			this.isMovingLeft = true;
+		});
+		this.leftButton.on('pointerup', () => {
+			this.isMovingLeft = false;
+		});
+
+		// Evento para el botón de la derecha
+		this.rightButton.on('pointerdown', () => {
+			this.isMovingRight = true;
+		});
+		this.rightButton.on('pointerup', () => {
+			this.isMovingRight = false;
+		});
+
+		// Evento para el botón de salto (arriba)
+		this.upButton.on('pointerdown', () => {
+			this.isJumping = true;
+		});
+		this.upButton.on('pointerup', () => {
+			this.isJumping = false;
+		});
+
+		// Evento para el botón de agacharse (abajo)
+		this.downButton.on('pointerdown', () => {
+			this.isMovingDown = true;
+		});
+
+		// En el update, puedes verificar el estado de los botones
+		this.update = () => {
+			if (this.isMovingLeft) {
+				// Mover hacia la izquierda
+				player.setVelocityX(-160);
+			} else if (this.isMovingRight) {
+				// Mover hacia la derecha
+				player.setVelocityX(160);
+			} else {
+				// Detener movimiento horizontal
+				player.setVelocityX(0);
+			}
+
+			if (this.isJumping && player.body.touching.down) {
+				// Saltar
+				player.setVelocityY(-330);
+			}
+
+			if (this.isMovingDown) {
+				// Lógica de agacharse
+			}
+		};
+
 		// Crear botón de pantalla completa
 		let fullscreenButtonfire = this.add.image(1855, 35, 'fullscreenButtonfire').setInteractive();
 
