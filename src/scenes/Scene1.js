@@ -57,7 +57,7 @@ class Scene1 extends Phaser.Scene {
 		this.load.image('upButton', 'assets/upButton.png');
 		this.load.image('downButton', 'assets/downButton.png');
 		this.load.image('toggleControls', 'assets/toggleControls.png'); // botón para mostrar/ocultar controles
-		this.load.image('fullscreenButton', 'assets/fullscreenButtonfire.png'); //Pantalla completa
+		this.load.image('fullscreenButtonfire', 'assets/fullscreenButtonfire.png'); //Pantalla completa
 	}
 
 	create() {
@@ -837,10 +837,10 @@ class Scene1 extends Phaser.Scene {
 		this.downButton.on('pointerup', () => cursors.down.isDown = false);
 	
 		// Crear botón de pantalla completa
-		let fullscreenButton = this.add.image(1855, 35, 'fullscreenButton').setInteractive();
+		let fullscreenButtonfire = this.add.image(1855, 35, 'fullscreenButtonfire').setInteractive();
 
 		// Evento para activar/desactivar pantalla completa
-		fullscreenButton.on('pointerdown', () => {
+		fullscreenButtonfire.on('pointerdown', () => {
 			if (this.scale.isFullscreen) {
 				this.scale.stopFullscreen(); // Salir de pantalla completa
 			} else {
