@@ -243,7 +243,7 @@ class Scene4 extends Phaser.Scene {
 	//funcion para coleccionar las monedas
 	collectCoin(player, coin) {
 		coin.disableBody(true, true);
-		score += 10;
+		score += 15;
 		scoreText.setText('S C O R E: ' + score);
 		this.checkAllCollected();
 		item.play()
@@ -251,7 +251,7 @@ class Scene4 extends Phaser.Scene {
 
 	collectCoin2(player2, coin) {
 		coin.disableBody(true, true);
-		score += 10;
+		score += 15;
 		scoreText.setText('S C O R E: ' + score);
 		this.checkAllCollected();
 		item.play()
@@ -779,8 +779,8 @@ class Scene4 extends Phaser.Scene {
 		
 
 		// Botones táctiles
-		this.leftButton = this.add.image(300, 865, 'leftButton').setInteractive().setVisible(false);
-		this.rightButton = this.add.image(520, 865, 'rightButton').setInteractive().setVisible(false);
+		this.leftButton = this.add.image(260, 865, 'leftButton').setInteractive().setVisible(false);
+		this.rightButton = this.add.image(480, 865, 'rightButton').setInteractive().setVisible(false);
 		this.upButton = this.add.image(1700, 750, 'upButton').setInteractive().setVisible(false);
 		this.downButton = this.add.image(1695, 920, 'downButton').setInteractive().setVisible(false);
 		

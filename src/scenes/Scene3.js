@@ -78,7 +78,7 @@ class Scene3 extends Phaser.Scene {
 			fontSize: '32px'
 		}
 		)
-		pointText = this.add.text(15, 40, "N E X T  L E V E L : 450", {
+		pointText = this.add.text(15, 40, "N E X T  L E V E L : 400", {
 			fontSize: '32px'
 		})
 
@@ -321,7 +321,7 @@ class Scene3 extends Phaser.Scene {
 	// Función para cambiar de escena cuando el jugador muere y se cumplen ciertos puntos
 	changeSceneIfConditionsMet() {
 		// Define la cantidad de puntos requerida para cambiar de escena
-		const puntosParaCambio = 450;
+		const puntosParaCambio = 400;
 
 
 		// Verifica si el jugador ha muerto (usando la variable jugadorVivo)
@@ -745,8 +745,8 @@ class Scene3 extends Phaser.Scene {
 		}
 
 		// Botones táctiles
-		this.leftButton = this.add.image(300, 865, 'leftButton').setInteractive().setVisible(false);
-		this.rightButton = this.add.image(520, 865, 'rightButton').setInteractive().setVisible(false);
+		this.leftButton = this.add.image(260, 865, 'leftButton').setInteractive().setVisible(false);
+		this.rightButton = this.add.image(480, 865, 'rightButton').setInteractive().setVisible(false);
 		this.upButton = this.add.image(1700, 750, 'upButton').setInteractive().setVisible(false);
 		this.downButton = this.add.image(1695, 920, 'downButton').setInteractive().setVisible(false);
 		
