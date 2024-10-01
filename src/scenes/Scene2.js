@@ -207,6 +207,19 @@ class Scene2 extends Phaser.Scene {
 			player.setVelocityY(330);
 		}
 
+		// Detección de múltiples teclas al mismo tiempo
+		if (cursors.right.isDown && cursors.up.isDown && player.body.touching.down) {
+			// Asegúrate de que el personaje pueda moverse hacia la derecha mientras salta
+			player.setVelocityX(170);
+			player.setVelocityY(-290);
+			player.anims.play("right", true);
+		} else if (cursors.left.isDown && cursors.up.isDown && player.body.touching.down) {
+			// Asegúrate de que el personaje pueda moverse hacia la izquierda mientras salta
+			player.setVelocityX(-170);
+			player.setVelocityY(-290);
+			player.anims.play("left", true);
+		}
+
 		if (player2Character != null) {
 			// Movimiento para el segundo personaje (con teclas ASDW)
 			if (wasd.left.isDown) {
@@ -770,10 +783,10 @@ class Scene2 extends Phaser.Scene {
 		}
 
 		// Botones táctiles
-		this.leftButton = this.add.image(1350, 865, 'leftButton').setInteractive().setVisible(false);
-		this.rightButton = this.add.image(1600, 865, 'rightButton').setInteractive().setVisible(false);
-		this.upButton = this.add.image(400, 750, 'upButton').setInteractive().setVisible(false);
-		this.downButton = this.add.image(395, 920, 'downButton').setInteractive().setVisible(false);
+		this.leftButton = this.add.image(300, 865, 'leftButton').setInteractive().setVisible(false);
+		this.rightButton = this.add.image(520, 865, 'rightButton').setInteractive().setVisible(false);
+		this.upButton = this.add.image(1700, 750, 'upButton').setInteractive().setVisible(false);
+		this.downButton = this.add.image(1695, 920, 'downButton').setInteractive().setVisible(false);
 		
 		// Botón para mostrar/ocultar controles
 		this.toggleControlsButton = this.add.image(1782, 35, 'toggleControlsacua').setInteractive();
